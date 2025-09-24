@@ -19,7 +19,7 @@ export default function FiltersPanel({
       <StarPicker label="Min stars" value={minStars} onChange={onChangeMin} />
       <div className={styles.spacer8} />
       <StarPicker label="Max stars" value={maxStars} onChange={onChangeMax} />
-      <div className={styles.spacer8} />
+      <div className={styles.spacer15} />
       <Presets
         presets={presets}
         current={presetKey}
