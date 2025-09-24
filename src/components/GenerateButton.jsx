@@ -6,7 +6,7 @@ export default function GenerateButton({ canGenerate, onClick, pulse, count, sho
     <div className={styles.wrap}>
       <button
         className={`${styles.generateBtn} ${!canGenerate ? styles.generateBtnDisabled : ''} ${pulse ? styles.pulse : ''}`}
-        disabled={!canGenerate}
+        aria-disabled={!canGenerate}
         onClick={onClick}
       >
         Generate Matchup

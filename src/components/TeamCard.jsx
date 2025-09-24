@@ -33,7 +33,7 @@ export default function TeamCard({ team, animateKey = 0 }) {
   if (!team) return null
   const divisionText = team.type === 'country' ? 'International' : (team.division || '')
   return (
-    <div className={`${styles.card} ${animateKey ? styles.delay1 : styles.delay0}`}>
+    <div className={`${styles.card} ${animateKey ? styles.slideRight : styles.slideLeft} ${animateKey ? styles.delay1 : styles.delay0}`}>
       <img src={team.logo} alt={`${team.name} logo`} className={styles.logo} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = GENERIC_LOGO }} />
       <div className={styles.name}>{team.name}</div>
       <Stars value={team.stars} />

@@ -35,11 +35,13 @@ function filterTeams(teams, { minStars, maxStars, presetKey, countries }) {
 }
 
 function randomTwo(arr) {
-  if (arr.length < 2) return []
-  const i = Math.floor(Math.random() * arr.length)
-  let j = Math.floor(Math.random() * (arr.length - 1))
-  if (j >= i) j += 1
-  return [arr[i], arr[j]]
+    if (arr.length < 2) return []
+    const i = Math.floor(Math.random() * arr.length)
+    let j
+    do {
+        j = Math.floor(Math.random() * arr.length)
+    } while (j === i)
+    return [arr[i], arr[j]]
 }
 
 
@@ -137,7 +139,7 @@ export default function App() {
       </section>
 
       {history.length > 0 && (
-        <section className={`${styles.section} ${styles.mt8}`}>
+        <section className={`${styles.section} ${styles.mt15}`}>
           <div className={styles.historySectionTitle}>Matchup History</div>
           <div className={styles.historyScroll}>
             {history.map((m, idx) => (

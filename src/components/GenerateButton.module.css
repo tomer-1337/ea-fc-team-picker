@@ -21,3 +21,8 @@
 .countText { color: #AAAAAA; text-align: center; font-size: 12px; margin-top: 6px; }
 .errorWrap { position: relative; height: 18px; margin-top: 4px; }
 .errorText { position: absolute; left: 0; right: 0; top: 0; text-align: center; color: #FF4D4F; font-size: 12px; }
+@keyframes pulse {
+    0% { transform: scale(1) }
+    50% { transform: scale(0.98) }
+    100% { transform: scale(1) }
+}

@@ -21,7 +21,7 @@ export const TEAMS = [
     stars: 5,
     type: 'club',
     division: 'Premier League',
-    country: { code: 'GB', name: 'England', flag: '🏴' },
+    country: { code: 'GB', name: 'England', flag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿' },
     players: [
       { name: 'Erling Haaland', rating: 91 },
       { name: 'Kevin De Bruyne', rating: 91 },
@@ -77,7 +77,7 @@ export const TEAMS = [
     stars: 4.5,
     type: 'club',
     division: 'Premier League',
-    country: { code: 'GB', name: 'England', flag: '🏴' },
+    country: { code: 'GB', name: 'England', flag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿' },
     players: [
       { name: 'Mohamed Salah', rating: 90 },
       { name: 'Virgil van Dijk', rating: 89 },
