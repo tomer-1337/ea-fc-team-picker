@@ -79,7 +79,7 @@ export default function App() {
         const [a, b] = randomTwo(filtered)
         setState((s) => ({
             ...s,
-            history: [{ left: a, right: b }, ...s.history].slice(0, 50),
+            history: [{left: a, right: b}, ...s.history].slice(0, 50),
         }))
         setMatch([{...a}, {...b}])
         setAnimKey((k) => k + 1)
@@ -144,7 +144,8 @@ export default function App() {
             <section className={`${styles.section} ${styles.mt15}`}>
                 <div className={styles.historyHeader}>
                     <div className={styles.historySectionTitle}>Matchup History</div>
-                    <button className={styles.clearBtn} onClick={() => setState((s) => ({ ...s, history: [] }))}>Clear</button>
+                    <button className={styles.clearBtn} onClick={() => setState((s) => ({...s, history: []}))}>Clear
+                    </button>
                 </div>
                 <div className={styles.historyScroll}>
                     {state.history.map((m, idx) => (
