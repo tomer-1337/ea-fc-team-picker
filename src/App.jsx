@@ -79,10 +79,7 @@ export default function App() {
         const [a, b] = randomTwo(filtered)
         setState((s) => ({
             ...s,
-            history:
-                match.length === 2
-                    ? [{ left: match[0], right: match[1] }, ...s.history].slice(0, 50)
-                    : s.history,
+            history: [{ left: a, right: b }, ...s.history].slice(0, 50),
         }))
         setMatch([{...a}, {...b}])
         setAnimKey((k) => k + 1)
