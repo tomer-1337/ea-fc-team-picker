@@ -1,10 +1,12 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import StarPicker from './components/StarPicker.jsx'
-import Presets from './components/Presets.jsx'
 import CountryFilterModal from './components/CountryFilterModal.jsx'
-import TeamCard from './components/TeamCard.jsx'
 import { TEAMS, PRESET_DEFINITIONS } from './data/teams.js'
 import styles from './App.module.css'
+import Header from './components/Header.jsx'
+import FiltersPanel from './components/FiltersPanel.jsx'
+import GenerateButton from './components/GenerateButton.jsx'
+import MatchupDisplay from './components/MatchupDisplay.jsx'
+import HistoryRow from './components/HistoryRow.jsx'
 
 const storageKey = 'ea-fc-settings-v1'
 
@@ -40,19 +42,6 @@ function randomTwo(arr) {
   return [arr[i], arr[j]]
 }
 
-const GENERIC_LOGO_HISTORY = 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Soccerball.svg'
-
-function HistoryRow({ left, right }) {
-  return (
-    <div className={styles.historyRow}>
-      <img src={left.logo} alt={left.name} className={styles.tinyLogo} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = GENERIC_LOGO_HISTORY }} />
-      <span>{left.name}</span>
-      <span className={styles.dim}>vs</span>
-      <span>{right.name}</span>
-      <img src={right.logo} alt={right.name} className={styles.tinyLogo} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = GENERIC_LOGO_HISTORY }} />
-    </div>
-  )
-}
 
 export default function App() {
   const [state, setState] = usePersistentState({
@@ -117,55 +106,34 @@ export default function App() {
 
   return (
     <div className={styles.app}>
-      <header className={styles.header}>
-        <h1 className={styles.title}>EA FC 26 Random Matchup</h1>
-      </header>
+      <Header />
 
       <section className={styles.section}>
-        <StarPicker label="Min stars" value={state.minStars} onChange={(v) => updateSetting({ minStars: v, maxStars: Math.max(v, state.maxStars) })} />
-        <div className={styles.spacer8} />
-        <StarPicker label="Max stars" value={state.maxStars} onChange={(v) => updateSetting({ maxStars: v, minStars: Math.min(state.minStars, v) })} />
-      </section>
-
-      <section className={`${styles.section} ${styles.mt8}`}>
-        <Presets
-          presets={PRESET_DEFINITIONS}
-          current={state.presetKey}
-          onChange={(key) => updateSetting({ presetKey: key })}
+        <FiltersPanel
+          minStars={state.minStars}
+          maxStars={state.maxStars}
+          onChangeMin={(v) => updateSetting({ minStars: v, maxStars: Math.max(v, state.maxStars) })}
+          onChangeMax={(v) => updateSetting({ maxStars: v, minStars: Math.min(state.minStars, v) })}
+          presetKey={state.presetKey}
+          onPresetChange={(key) => updateSetting({ presetKey: key })}
           onOpenFilters={() => setModalOpen(true)}
           filtersActive={state.countries.length > 0}
+          presets={PRESET_DEFINITIONS}
         />
       </section>
 
       <section className={`${styles.section} ${styles.mt8}`}>
-        <button
-          className={`${styles.generateBtn} ${!canGenerate ? styles.generateBtnDisabled : ''} ${pulse ? styles.pulse : ''}`}
-          disabled={!canGenerate}
+        <GenerateButton
+          canGenerate={canGenerate}
           onClick={handleGenerate}
-        >
-          Generate Matchup
-        </button>
-        <div className={styles.countText}>{filtered.length} teams available</div>
-        <div className={styles.errorWrap} aria-live="polite">
-          {filtersError && (
-            <div className={styles.errorText}>Not enough teams. Adjust filters to have at least two teams.</div>
-          )}
-        </div>
+          pulse={pulse}
+          count={filtered.length}
+          showError={filtersError}
+        />
       </section>
 
       <section className={`${styles.section} ${styles.mt8}`}>
-        <div className={styles.cardsWrap}>
-          <div className={styles.cardCol}>
-            <div key={`a-${animKey}`}>
-              <TeamCard team={match[0]} animateKey={0} />
-            </div>
-          </div>
-          <div className={styles.cardCol}>
-            <div key={`b-${animKey}`}>
-              <TeamCard team={match[1]} animateKey={1} />
-            </div>
-          </div>
-        </div>
+        <MatchupDisplay teamA={match[0]} teamB={match[1]} animKey={animKey} />
       </section>
 
       {history.length > 0 && (

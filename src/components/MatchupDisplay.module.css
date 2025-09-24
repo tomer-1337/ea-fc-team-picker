@@ -1,0 +1,2 @@
+.cardsWrap { display: flex; gap: 12px; margin-top: 14px; flex-wrap: nowrap; }
+.cardCol { flex: 1 1 50%; min-width: 0; }
