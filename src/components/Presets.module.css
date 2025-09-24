@@ -1,0 +1,5 @@
+.row { display: flex; gap: 8px; flex-wrap: wrap; }
+.btn { padding: 10px 14px; border-radius: 999px; background: #1E1E1E; color: #FFFFFF; border: 2px solid transparent; box-shadow: 0 0 0 1px #2e2e2e inset; cursor: pointer; font-size: 14px; transition: background 120ms ease, transform 120ms ease, border 120ms ease; }
+.btn:hover { background: #2a2a2a; }
+.btn:active { transform: scale(0.98); }
+.active { background: #2a2a2a; border-color: #FFD700; box-shadow: 0 0 0 1px rgba(255,215,0,0.35) inset; }

@@ -4,18 +4,7 @@ import Presets from './components/Presets.jsx'
 import CountryFilterModal from './components/CountryFilterModal.jsx'
 import TeamCard from './components/TeamCard.jsx'
 import { TEAMS, PRESET_DEFINITIONS } from './data/teams.js'
-
-const app = { minHeight: '100%', color: '#FFFFFF', background: '#121212', padding: 16 }
-const title = { textAlign: 'center', fontWeight: 900, fontSize: 22, margin: '2px 0 14px' }
-const section = { background: 'transparent', borderRadius: 16, padding: 8 }
-const generateBtn = (enabled) => ({
-  width: '100%', padding: '14px 16px', borderRadius: 14, background: enabled ? '#1E1E1E' : '#171717', color: '#FFFFFF', border: '1px solid #2e2e2e', cursor: enabled ? 'pointer' : 'not-allowed', fontSize: 16, fontWeight: 700, transition: 'transform 120ms ease, background 120ms ease',
-})
-const countText = { color: '#AAAAAA', textAlign: 'center', fontSize: 12, marginTop: 6 }
-const errorWrap = { position: 'relative', height: 18, marginTop: 4 }
-const errorText = { position: 'absolute', left: 0, right: 0, top: 0, textAlign: 'center', color: '#FF4D4F', fontSize: 12 }
-const cardsWrap = { display: 'flex', gap: 12, marginTop: 14, flexWrap: 'nowrap' }
-const cardCol = { flex: '1 1 50%', minWidth: 0 }
+import styles from './App.module.css'
 
 const storageKey = 'ea-fc-settings-v1'
 
@@ -51,19 +40,16 @@ function randomTwo(arr) {
   return [arr[i], arr[j]]
 }
 
-const historyRowStyle = { display: 'flex', alignItems: 'center', gap: 8, padding: '6px 8px', borderRadius: 8, background: '#1A1A1A', marginBottom: 6, fontSize: 12, color: '#FFFFFF' }
-const tinyLogo = { width: 16, height: 16, objectFit: 'contain' }
-const dim = { color: '#AAAAAA' }
 const GENERIC_LOGO_HISTORY = 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Soccerball.svg'
 
 function HistoryRow({ left, right }) {
   return (
-    <div style={historyRowStyle}>
-      <img src={left.logo} alt={left.name} style={tinyLogo} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = GENERIC_LOGO_HISTORY }} />
+    <div className={styles.historyRow}>
+      <img src={left.logo} alt={left.name} className={styles.tinyLogo} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = GENERIC_LOGO_HISTORY }} />
       <span>{left.name}</span>
-      <span style={dim}>vs</span>
+      <span className={styles.dim}>vs</span>
       <span>{right.name}</span>
-      <img src={right.logo} alt={right.name} style={tinyLogo} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = GENERIC_LOGO_HISTORY }} />
+      <img src={right.logo} alt={right.name} className={styles.tinyLogo} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = GENERIC_LOGO_HISTORY }} />
     </div>
   )
 }
@@ -130,25 +116,18 @@ export default function App() {
   }
 
   return (
-    <div style={app}>
-      <style>
-        {`
-          @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-          @keyframes pulse { 0% { transform: scale(1) } 50% { transform: scale(0.98) } 100% { transform: scale(1) } }
-        `}
-      </style>
-
-      <header style={{ marginBottom: 12 }}>
-        <h1 style={title}>EA FC 26 Random Matchup</h1>
+    <div className={styles.app}>
+      <header className={styles.header}>
+        <h1 className={styles.title}>EA FC 26 Random Matchup</h1>
       </header>
 
-      <section style={section}>
+      <section className={styles.section}>
         <StarPicker label="Min stars" value={state.minStars} onChange={(v) => updateSetting({ minStars: v, maxStars: Math.max(v, state.maxStars) })} />
-        <div style={{ height: 8 }} />
+        <div className={styles.spacer8} />
         <StarPicker label="Max stars" value={state.maxStars} onChange={(v) => updateSetting({ maxStars: v, minStars: Math.min(state.minStars, v) })} />
       </section>
 
-      <section style={{ ...section, marginTop: 8 }}>
+      <section className={`${styles.section} ${styles.mt8}`}>
         <Presets
           presets={PRESET_DEFINITIONS}
           current={state.presetKey}
@@ -158,32 +137,30 @@ export default function App() {
         />
       </section>
 
-      <section style={{ ...section, marginTop: 8 }}>
+      <section className={`${styles.section} ${styles.mt8}`}>
         <button
-          style={{ ...generateBtn(canGenerate), animation: pulse ? 'pulse 180ms ease' : 'none' }}
+          className={`${styles.generateBtn} ${!canGenerate ? styles.generateBtnDisabled : ''} ${pulse ? styles.pulse : ''}`}
           disabled={!canGenerate}
           onClick={handleGenerate}
-          onMouseEnter={(e) => { if (canGenerate) e.currentTarget.style.background = '#2a2a2a' }}
-          onMouseLeave={(e) => { if (canGenerate) e.currentTarget.style.background = '#1E1E1E' }}
         >
           Generate Matchup
         </button>
-        <div style={countText}>{filtered.length} teams available</div>
-        <div style={errorWrap} aria-live="polite">
+        <div className={styles.countText}>{filtered.length} teams available</div>
+        <div className={styles.errorWrap} aria-live="polite">
           {filtersError && (
-            <div style={errorText}>Not enough teams. Adjust filters to have at least two teams.</div>
+            <div className={styles.errorText}>Not enough teams. Adjust filters to have at least two teams.</div>
           )}
         </div>
       </section>
 
-      <section style={{ ...section, marginTop: 8 }}>
-        <div className="cards" style={cardsWrap}>
-          <div className="col" style={cardCol}>
+      <section className={`${styles.section} ${styles.mt8}`}>
+        <div className={styles.cardsWrap}>
+          <div className={styles.cardCol}>
             <div key={`a-${animKey}`}>
               <TeamCard team={match[0]} animateKey={0} />
             </div>
           </div>
-          <div className="col" style={cardCol}>
+          <div className={styles.cardCol}>
             <div key={`b-${animKey}`}>
               <TeamCard team={match[1]} animateKey={1} />
             </div>
@@ -192,9 +169,9 @@ export default function App() {
       </section>
 
       {history.length > 0 && (
-        <section style={{ ...section, marginTop: 8 }}>
-          <div style={{ fontWeight: 800, marginBottom: 20 }}>Matchup History</div>
-          <div style={{ maxHeight: 120, overflowY: 'auto', paddingRight: 4 }}>
+        <section className={`${styles.section} ${styles.mt8}`}>
+          <div className={styles.historySectionTitle}>Matchup History</div>
+          <div className={styles.historyScroll}>
             {history.map((m, idx) => (
               <HistoryRow key={idx} left={m.left} right={m.right} />)
             )}

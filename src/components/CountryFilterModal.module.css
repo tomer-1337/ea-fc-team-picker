@@ -1,0 +1,9 @@
+.overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: flex-end; justify-content: center; }
+.sheet { background: #1A1A1A; border-top-left-radius: 16px; border-top-right-radius: 16px; padding: 16px; width: 100%; max-width: 560px; color: #FFFFFF; box-shadow: 0 -10px 30px rgba(0,0,0,0.4); }
+.title { font-weight: 700; font-size: 18px; margin-bottom: 8px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; max-height: 45vh; overflow: auto; }
+.row { display: flex; align-items: center; gap: 8px; padding: 8px 10px; background: #121212; border-radius: 10px; }
+.countryName { color: #AAAAAA; }
+.actions { display: flex; gap: 10px; margin-top: 12px; justify-content: space-between; align-items: center; }
+.btn { padding: 10px 14px; border-radius: 12px; background: #1E1E1E; color: #fff; border: 1px solid #2e2e2e; cursor: pointer; }
+.btnPrimary { background: #2A2A2A; }
