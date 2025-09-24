@@ -96,7 +96,7 @@ export default function App() {
                 ...s,
                 history: [{ left: a, right: b }, ...s.history].slice(0, 50),
             }))
-        }, 500)
+        }, 1900)
         setMatch([{...a}, {...b}])
         setAnimKey((k) => k + 1)
     }
