@@ -5610,6 +5610,7 @@ export const TEAMS = [
 export const PRESET_DEFINITIONS = {
   ALL: { label: 'All Teams', predicate: () => true },
   CLUBS: { label: 'Clubs Only', predicate: (t) => t.type === 'club' },
-  COUNTRIES: { label: 'Countries Only', predicate: (t) => t.type === 'country' },
+  // COUNTRIES: { label: 'Countries Only', predicate: (t) => t.type === 'country' },
   EU_CLUBS: { label: 'European Clubs Only', predicate: (t) => t.type === 'club' && getCountryCodesByContinent('europe').includes(t.country) },
+  TOP_FIVE_LEAGUES: { label: 'Top 5 Leagues Only', predicate: (t) => t.type === 'club' && ['Premier League', 'Laliga Ea Sports', 'Serie A', 'Bundesliga', 'Ligue 1'].includes(t.division) },
 }
