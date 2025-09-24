@@ -30,7 +30,7 @@ function usePersistentState(defaults) {
 
 
 function filterTeamsWithoutSpecificCountrySelection(teams, {minStars, maxStars, presetKey, countries}) {
-    const preset = PRESET_DEFINITIONS[presetKey] || PRESET_DEFINITIONS.ALL
+    const preset = PRESET_DEFINITIONS[presetKey] || PRESET_DEFINITIONS.CLUBS
     return teams.filter((t) =>
         t.stars >= minStars && t.stars <= maxStars && preset.predicate(t)
     )
@@ -38,7 +38,7 @@ function filterTeamsWithoutSpecificCountrySelection(teams, {minStars, maxStars, 
 
 
 function filterTeams(teams, {minStars, maxStars, presetKey, countries}) {
-    const preset = PRESET_DEFINITIONS[presetKey] || PRESET_DEFINITIONS.ALL
+    const preset = PRESET_DEFINITIONS[presetKey] || PRESET_DEFINITIONS.CLUBS
     return teams.filter((t) =>
         t.stars >= minStars && t.stars <= maxStars && preset.predicate(t) && (countries.length === 0 || countries.includes(t.country))
     )

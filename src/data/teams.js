@@ -5608,7 +5608,6 @@ export const TEAMS = [
 ];
 
 export const PRESET_DEFINITIONS = {
-  ALL: { label: 'All Teams', predicate: () => true },
   CLUBS: { label: 'Clubs Only', predicate: (t) => t.type === 'club' },
   // COUNTRIES: { label: 'Countries Only', predicate: (t) => t.type === 'country' },
   EU_CLUBS: { label: 'European Clubs Only', predicate: (t) => t.type === 'club' && getCountryCodesByContinent('europe').includes(t.country) },
