@@ -12,7 +12,9 @@ html, body, #root {
 }
 .section { background: transparent; border-radius: 16px; padding: 8px; }
 
-.historySectionTitle { font-weight: 800; margin-bottom: 20px; }
+.historySectionTitle { font-weight: 800; }
+.historyHeader { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.clearBtn { padding: 6px 10px; border-radius: 999px; background: #1E1E1E; color: #FFFFFF; border: 1px solid #2e2e2e; cursor: pointer; font-size: 12px; }
 .historyScroll { max-height: 120px; overflow-y: auto; padding-right: 4px; }
 
 .spacer8 { height: 8px; }
