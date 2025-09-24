@@ -7,7 +7,7 @@ import FiltersPanel from './components/FiltersPanel.jsx'
 import GenerateButton from './components/GenerateButton.jsx'
 import MatchupDisplay from './components/MatchupDisplay.jsx'
 import HistoryRow from './components/HistoryRow.jsx'
-import {COUNTRIES, getCountryById} from "./data/countries.js";
+import {getCountryById} from "./data/countries.js";
 
 const storageKey = 'ea-fc-settings-v1'
 
@@ -124,9 +124,6 @@ export default function App() {
     function clearCountries() {
         setState((s) => ({...s, countries: []}))
     }
-
-    console.log(TEAMS)
-    console.log(COUNTRIES)
 
     return (
         <div className={styles.app}>

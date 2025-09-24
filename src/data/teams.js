@@ -5,7 +5,8 @@ export const TEAMS = [
     {
         id: 'parissaintgermain',
         name: 'Paris Saint-Germain',
-        logo: 'https://fifauteam.com/images/teams/PSG.webp',
+        // logo: 'https://fifauteam.com/images/teams/PSG.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png?raw=true',
         stars: 5,
         type: 'club',
         division: 'Ligue 1',
@@ -14,7 +15,7 @@ export const TEAMS = [
     {
         id: 'fcbarcelona',
         name: 'FC Barcelona',
-        // logo: 'https://fifauteam.com/images/teams/FCBarcelona.webp',
+        // logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png?raw=true',
         logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png?raw=true',
         stars: 5,
         type: 'club',
@@ -24,7 +25,7 @@ export const TEAMS = [
     {
         id: 'realmadrid',
         name: 'Real Madrid',
-        // logo: 'https://fifauteam.com/images/teams/RealMadrid.webp',
+        // logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png?raw=true',
         logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png?raw=true',
         stars: 5,
         type: 'club',
@@ -34,7 +35,8 @@ export const TEAMS = [
     {
         id: 'arsenal',
         name: 'Arsenal',
-        logo: 'https://fifauteam.com/images/teams/Arsenal.webp',
+        // logo: 'https://fifauteam.com/images/teams/Arsenal.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png?raw=true',
         stars: 5,
         type: 'club',
         division: 'Premier League',
@@ -43,7 +45,8 @@ export const TEAMS = [
     {
         id: 'liverpool',
         name: 'Liverpool',
-        logo: 'https://fifauteam.com/images/teams/Liverpool.webp',
+        // logo: 'https://fifauteam.com/images/teams/Liverpool.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png?raw=true',
         stars: 5,
         type: 'club',
         division: 'Premier League',
@@ -52,7 +55,8 @@ export const TEAMS = [
     {
         id: 'manchestercity',
         name: 'Manchester City',
-        logo: 'https://fifauteam.com/images/teams/ManchesterCity.webp',
+        // logo: 'https://fifauteam.com/images/teams/ManchesterCity.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Manchester%20City.png?raw=true',
         stars: 5,
         type: 'club',
         division: 'Premier League',
@@ -61,7 +65,8 @@ export const TEAMS = [
     {
         id: 'bayern',
         name: 'Bayern Munich',
-        logo: 'https://fifauteam.com/images/teams/Bayern.webp',
+        // logo: 'https://fifauteam.com/images/teams/Bayern.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png?raw=true',
         stars: 5,
         type: 'club',
         division: 'Bundesliga',
@@ -70,7 +75,8 @@ export const TEAMS = [
     {
         id: 'inter',
         name: 'Inter',
-        logo: 'https://fifauteam.com/images/teams/Inter.webp',
+        // logo: 'https://fifauteam.com/images/teams/Inter.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png?raw=true',
         stars: 5,
         type: 'club',
         division: 'Serie A',
@@ -79,7 +85,8 @@ export const TEAMS = [
     {
         id: 'atlticomadrid',
         name: 'Atlético Madrid',
-        logo: 'https://fifauteam.com/images/teams/AtleticoMadrid.webp',
+        // logo: 'https://fifauteam.com/images/teams/AtleticoMadrid.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -88,7 +95,8 @@ export const TEAMS = [
     {
         id: 'chelsea',
         name: 'Chelsea',
-        logo: 'https://fifauteam.com/images/teams/Chelsea.webp',
+        // logo: 'https://fifauteam.com/images/teams/Chelsea.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Premier League',
@@ -97,7 +105,8 @@ export const TEAMS = [
     {
         id: 'newcastleunited',
         name: 'Newcastle United',
-        logo: 'https://fifauteam.com/images/teams/NewcastleUnited.webp',
+        // logo: 'https://fifauteam.com/images/teams/NewcastleUnited.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Newcastle%20United.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Premier League',
@@ -106,7 +115,8 @@ export const TEAMS = [
     {
         id: 'tottenham',
         name: 'Tottenham',
-        logo: 'https://fifauteam.com/images/teams/Tottenham.webp',
+        // logo: 'https://fifauteam.com/images/teams/Tottenham.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Premier League',
@@ -115,7 +125,8 @@ export const TEAMS = [
     {
         id: 'borussiadortmund',
         name: 'Borussia Dortmund',
-        logo: 'https://fifauteam.com/images/teams/BorussiaDortmund.webp',
+        // logo: 'https://fifauteam.com/images/teams/BorussiaDortmund.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Bundesliga',
@@ -124,7 +135,8 @@ export const TEAMS = [
     {
         id: 'napoli',
         name: 'Napoli',
-        logo: 'https://fifauteam.com/images/teams/Napoli.webp',
+        // logo: 'https://fifauteam.com/images/teams/Napoli.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/SSC%20Napoli.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Serie A',
@@ -133,7 +145,8 @@ export const TEAMS = [
     {
         id: 'astonvilla',
         name: 'Aston Villa',
-        logo: 'https://fifauteam.com/images/teams/AstonVilla.webp',
+        // logo: 'https://fifauteam.com/images/teams/AstonVilla.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Aston%20Villa.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Premier League',
@@ -142,7 +155,8 @@ export const TEAMS = [
     {
         id: 'manchesterunited',
         name: 'Manchester United',
-        logo: 'https://fifauteam.com/images/teams/ManchesterUnited.webp',
+        // logo: 'https://fifauteam.com/images/teams/ManchesterUnited.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Manchester%20United.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Premier League',
@@ -151,7 +165,8 @@ export const TEAMS = [
     {
         id: 'bayerleverkusen',
         name: 'Bayer Leverkusen',
-        logo: 'https://fifauteam.com/images/teams/Leverkusen.webp',
+        // logo: 'https://fifauteam.com/images/teams/Leverkusen.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Bayer%2004%20Leverkusen.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Bundesliga',
@@ -160,7 +175,8 @@ export const TEAMS = [
     {
         id: 'rbleipzig',
         name: 'RB Leipzig',
-        logo: 'https://fifauteam.com/images/teams/RBLeipzig.webp',
+        // logo: 'https://fifauteam.com/images/teams/RBLeipzig.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/RB%20Leipzig.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Bundesliga',
@@ -169,7 +185,8 @@ export const TEAMS = [
     {
         id: 'juventus',
         name: 'Juventus',
-        logo: 'https://fifauteam.com/images/teams/Juventus.webp',
+        // logo: 'https://fifauteam.com/images/teams/Juventus.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Serie A',
@@ -178,7 +195,8 @@ export const TEAMS = [
     {
         id: 'milan',
         name: 'Milan',
-        logo: 'https://fifauteam.com/images/teams/Milan.webp',
+        // logo: 'https://fifauteam.com/images/teams/Milan.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Serie A',
@@ -187,7 +205,8 @@ export const TEAMS = [
     {
         id: 'parissaintgermain',
         name: 'Paris Saint-Germain',
-        logo: 'https://fifauteam.com/images/teams/PSG.webp',
+        // logo: 'https://fifauteam.com/images/teams/PSG.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Ligue 1',
@@ -196,7 +215,8 @@ export const TEAMS = [
     {
         id: 'nottinghamforest',
         name: 'Nottingham Forest',
-        logo: 'https://fifauteam.com/images/teams/NottinghamForest.webp',
+        // logo: 'https://fifauteam.com/images/teams/NottinghamForest.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Nottingham%20Forest.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Premier League',
@@ -205,7 +225,8 @@ export const TEAMS = [
     {
         id: 'asroma',
         name: 'AS Roma',
-        logo: 'https://fifauteam.com/images/teams/Roma.webp',
+        // logo: 'https://fifauteam.com/images/teams/Roma.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Serie A',
@@ -214,7 +235,8 @@ export const TEAMS = [
     {
         id: 'atalanta',
         name: 'Atalanta',
-        logo: 'https://fifauteam.com/images/teams/Atalanta.webp',
+        // logo: 'https://fifauteam.com/images/teams/Atalanta.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Serie A',
@@ -223,7 +245,8 @@ export const TEAMS = [
     {
         id: 'lazio',
         name: 'Lazio',
-        logo: 'https://fifauteam.com/images/teams/Lazio.webp',
+        // logo: 'https://fifauteam.com/images/teams/Lazio.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/SS%20Lazio.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Serie A',
@@ -232,7 +255,8 @@ export const TEAMS = [
     {
         id: 'sporting',
         name: 'Sporting',
-        logo: 'https://fifauteam.com/images/teams/Sporting.webp',
+        // logo: 'https://fifauteam.com/images/teams/Sporting.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/Sporting%20CP.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Liga Portugal',
@@ -241,7 +265,8 @@ export const TEAMS = [
     {
         id: 'athleticbilbao',
         name: 'Athletic Bilbao',
-        logo: 'https://fifauteam.com/images/teams/Athletic.webp',
+        // logo: 'https://fifauteam.com/images/teams/Athletic.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -250,7 +275,8 @@ export const TEAMS = [
     {
         id: 'galatasarayistanbul',
         name: 'Galatasaray Istanbul',
-        logo: 'https://fifauteam.com/images/teams/Galatasaray.webp',
+        // logo: 'https://fifauteam.com/images/teams/Galatasaray.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Galatasaray.png?raw=true',
         stars: 4.5,
         type: 'club',
         division: 'Süper Lig',
@@ -259,7 +285,8 @@ export const TEAMS = [
     {
         id: 'bournemouth',
         name: 'Bournemouth',
-        logo: 'https://fifauteam.com/images/teams/Bournemouth.webp',
+        // logo: 'https://fifauteam.com/images/teams/Bournemouth.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/AFC%20Bournemouth.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Premier League',
@@ -268,7 +295,8 @@ export const TEAMS = [
     {
         id: 'brightonhovealbion',
         name: 'Brighton & Hove Albion',
-        logo: 'https://fifauteam.com/images/teams/Brighton.webp',
+        // logo: 'https://fifauteam.com/images/teams/Brighton.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Brighton%20%26%20Hove%20Albion.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Premier League',
@@ -277,7 +305,8 @@ export const TEAMS = [
     {
         id: 'crystalpalace',
         name: 'Crystal Palace',
-        logo: 'https://fifauteam.com/images/teams/CrystalPalace.webp',
+        // logo: 'https://fifauteam.com/images/teams/CrystalPalace.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Crystal%20Palace.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Premier League',
@@ -286,7 +315,8 @@ export const TEAMS = [
     {
         id: 'westham',
         name: 'West Ham',
-        logo: 'https://fifauteam.com/images/teams/WestHam.webp',
+        // logo: 'https://fifauteam.com/images/teams/WestHam.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/West%20Ham%20United.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Premier League',
@@ -295,7 +325,8 @@ export const TEAMS = [
     {
         id: 'asmonaco',
         name: 'AS Monaco',
-        logo: 'https://fifauteam.com/images/teams/Monaco.webp',
+        // logo: 'https://fifauteam.com/images/teams/Monaco.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/AS%20Monaco.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Ligue 1',
@@ -304,7 +335,8 @@ export const TEAMS = [
     {
         id: 'olympiquedemarseille',
         name: 'Olympique de Marseille',
-        logo: 'https://fifauteam.com/images/teams/Marseille.webp',
+        // logo: 'https://fifauteam.com/images/teams/Marseille.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Olympique%20Marseille.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Ligue 1',
@@ -313,7 +345,8 @@ export const TEAMS = [
     {
         id: 'eintrachtfrankfurt',
         name: 'Eintracht Frankfurt',
-        logo: 'https://fifauteam.com/images/teams/EintrachtFrankfurt.webp',
+        // logo: 'https://fifauteam.com/images/teams/EintrachtFrankfurt.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Eintracht%20Frankfurt.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Bundesliga',
@@ -322,7 +355,8 @@ export const TEAMS = [
     {
         id: 'slbenfica',
         name: 'SL Benfica',
-        logo: 'https://fifauteam.com/images/teams/Benfica.webp',
+        // logo: 'https://fifauteam.com/images/teams/Benfica.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/SL%20Benfica.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Liga Portugal',
@@ -340,7 +374,8 @@ export const TEAMS = [
     {
         id: 'realbetis',
         name: 'Real Betis',
-        logo: 'https://fifauteam.com/images/teams/Betis.webp',
+        // logo: 'https://fifauteam.com/images/teams/Betis.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -349,7 +384,8 @@ export const TEAMS = [
     {
         id: 'realsociedad',
         name: 'Real Sociedad',
-        logo: 'https://fifauteam.com/images/teams/RealSociedad.webp',
+        // logo: 'https://fifauteam.com/images/teams/RealSociedad.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Real%20Sociedad.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -358,7 +394,8 @@ export const TEAMS = [
     {
         id: 'villareal',
         name: 'Villareal',
-        logo: 'https://fifauteam.com/images/teams/Villareal.webp',
+        // logo: 'https://fifauteam.com/images/teams/Villareal.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Villarreal%20CF.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -367,7 +404,8 @@ export const TEAMS = [
     {
         id: 'fenerbaheistanbul',
         name: 'Fenerbahçe Istanbul',
-        logo: 'https://fifauteam.com/images/teams/Fenerbahce.webp',
+        // logo: 'https://fifauteam.com/images/teams/Fenerbahce.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Fenerbahce.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Süper Lig',
@@ -376,7 +414,8 @@ export const TEAMS = [
     {
         id: 'brentford',
         name: 'Brentford',
-        logo: 'https://fifauteam.com/images/teams/Brentford.webp',
+        // logo: 'https://fifauteam.com/images/teams/Brentford.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Brentford%20FC.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Premier League',
@@ -385,7 +424,8 @@ export const TEAMS = [
     {
         id: 'fulham',
         name: 'Fulham',
-        logo: 'https://fifauteam.com/images/teams/Fulham.webp',
+        // logo: 'https://fifauteam.com/images/teams/Fulham.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Fulham%20FC.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Premier League',
@@ -394,7 +434,8 @@ export const TEAMS = [
     {
         id: 'losclille',
         name: 'LOSC Lille',
-        logo: 'https://fifauteam.com/images/teams/LOSCLille.webp',
+        // logo: 'https://fifauteam.com/images/teams/LOSCLille.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/LOSC%20Lille.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Ligue 1',
@@ -403,7 +444,8 @@ export const TEAMS = [
     {
         id: 'vfbstuttgart',
         name: 'VfB Stuttgart',
-        logo: 'https://fifauteam.com/images/teams/Stuttgart.webp',
+        // logo: 'https://fifauteam.com/images/teams/Stuttgart.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/VfB%20Stuttgart.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Bundesliga',
@@ -412,7 +454,8 @@ export const TEAMS = [
     {
         id: 'vflwolfsburg',
         name: 'VfL Wolfsburg',
-        logo: 'https://fifauteam.com/images/teams/Wolfsburg.webp',
+        // logo: 'https://fifauteam.com/images/teams/Wolfsburg.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/VfL%20Wolfsburg.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Bundesliga',
@@ -421,7 +464,8 @@ export const TEAMS = [
     {
         id: 'bologna',
         name: 'Bologna',
-        logo: 'https://fifauteam.com/images/teams/Bologna.webp',
+        // logo: 'https://fifauteam.com/images/teams/Bologna.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Serie A',
@@ -430,7 +474,8 @@ export const TEAMS = [
     {
         id: 'fiorentina',
         name: 'Fiorentina',
-        logo: 'https://fifauteam.com/images/teams/Fiorentina.webp',
+        // logo: 'https://fifauteam.com/images/teams/Fiorentina.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Serie A',
@@ -439,7 +484,8 @@ export const TEAMS = [
     {
         id: 'girona',
         name: 'Girona',
-        logo: 'https://fifauteam.com/images/teams/Girona.webp',
+        // logo: 'https://fifauteam.com/images/teams/Girona.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Girona%20FC.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -448,7 +494,8 @@ export const TEAMS = [
     {
         id: 'mallorca',
         name: 'Mallorca',
-        logo: 'https://fifauteam.com/images/teams/Mallorca.webp',
+        // logo: 'https://fifauteam.com/images/teams/Mallorca.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/RCD%20Mallorca.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -457,7 +504,8 @@ export const TEAMS = [
     {
         id: 'rayovallecano',
         name: 'Rayo Vallecano',
-        logo: 'https://fifauteam.com/images/teams/RayoVallecano.webp',
+        // logo: 'https://fifauteam.com/images/teams/RayoVallecano.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Rayo%20Vallecano.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -466,7 +514,8 @@ export const TEAMS = [
     {
         id: 'parisfc',
         name: 'Paris FC',
-        logo: 'https://fifauteam.com/images/teams/ParisFC.webp',
+        // logo: 'https://fifauteam.com/images/teams/ParisFC.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Paris%20FC.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Ligue 1',
@@ -484,7 +533,8 @@ export const TEAMS = [
     {
         id: 'everton',
         name: 'Everton',
-        logo: 'https://fifauteam.com/images/teams/Everton.webp',
+        // logo: 'https://fifauteam.com/images/teams/Everton.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Everton%20FC.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Premier League',
@@ -493,7 +543,8 @@ export const TEAMS = [
     {
         id: 'leedsunited',
         name: 'Leeds United',
-        logo: 'https://fifauteam.com/images/teams/Leeds.webp',
+        // logo: 'https://fifauteam.com/images/teams/Leeds.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Leeds%20United.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Premier League',
@@ -502,7 +553,8 @@ export const TEAMS = [
     {
         id: 'wolverhampton',
         name: 'Wolverhampton',
-        logo: 'https://fifauteam.com/images/teams/Wolves.webp',
+        // logo: 'https://fifauteam.com/images/teams/Wolves.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Wolverhampton%20Wanderers.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Premier League',
@@ -511,7 +563,8 @@ export const TEAMS = [
     {
         id: 'ogcnice',
         name: 'OGC Nice',
-        logo: 'https://fifauteam.com/images/teams/Nice.webp',
+        // logo: 'https://fifauteam.com/images/teams/Nice.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/OGC%20Nice.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Ligue 1',
@@ -520,7 +573,8 @@ export const TEAMS = [
     {
         id: 'olympiquelyonnais',
         name: 'Olympique Lyonnais',
-        logo: 'https://fifauteam.com/images/teams/Lyon.webp',
+        // logo: 'https://fifauteam.com/images/teams/Lyon.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Olympique%20Lyon.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Ligue 1',
@@ -529,7 +583,8 @@ export const TEAMS = [
     {
         id: 'staderennaisfc',
         name: 'Stade Rennais FC',
-        logo: 'https://fifauteam.com/images/teams/Rennais.webp',
+        // logo: 'https://fifauteam.com/images/teams/Rennais.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Stade%20Rennais%20FC.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Ligue 1',
@@ -538,7 +593,8 @@ export const TEAMS = [
     {
         id: 'borussiamnchengladbach',
         name: 'Borussia Mönchengladbach',
-        logo: 'https://fifauteam.com/images/teams/Mgladbach.webp',
+        // logo: 'https://fifauteam.com/images/teams/Mgladbach.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Borussia%20M%C3%B6nchengladbach.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Bundesliga',
@@ -547,7 +603,8 @@ export const TEAMS = [
     {
         id: 'scfreiburg',
         name: 'SC Freiburg',
-        logo: 'https://fifauteam.com/images/teams/Freiburg.webp',
+        // logo: 'https://fifauteam.com/images/teams/Freiburg.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/SC%20Freiburg.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Bundesliga',
@@ -556,7 +613,8 @@ export const TEAMS = [
     {
         id: 'torino',
         name: 'Torino',
-        logo: 'https://fifauteam.com/images/teams/Torino.webp',
+        // logo: 'https://fifauteam.com/images/teams/Torino.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Torino%20FC.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Serie A',
@@ -565,7 +623,8 @@ export const TEAMS = [
     {
         id: 'psv',
         name: 'PSV',
-        logo: 'https://fifauteam.com/images/teams/PSV.webp',
+        // logo: 'https://fifauteam.com/images/teams/PSV.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Netherlands%20-%20Eredivisie/PSV%20Eindhoven.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Eredivisie',
@@ -574,7 +633,8 @@ export const TEAMS = [
     {
         id: 'fcporto',
         name: 'FC Porto',
-        logo: 'https://fifauteam.com/images/teams/FCPorto.webp',
+        // logo: 'https://fifauteam.com/images/teams/FCPorto.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/FC%20Porto.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Liga Portugal',
@@ -592,7 +652,8 @@ export const TEAMS = [
     {
         id: 'celtavigo',
         name: 'Celta Vigo',
-        logo: 'https://fifauteam.com/images/teams/Celta.webp',
+        // logo: 'https://fifauteam.com/images/teams/Celta.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -601,7 +662,8 @@ export const TEAMS = [
     {
         id: 'getafe',
         name: 'Getafe',
-        logo: 'https://fifauteam.com/images/teams/Getafe.webp',
+        // logo: 'https://fifauteam.com/images/teams/Getafe.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Getafe%20CF.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -610,7 +672,8 @@ export const TEAMS = [
     {
         id: 'osasuna',
         name: 'Osasuna',
-        logo: 'https://fifauteam.com/images/teams/Osasuna.webp',
+        // logo: 'https://fifauteam.com/images/teams/Osasuna.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/CA%20Osasuna.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -619,7 +682,8 @@ export const TEAMS = [
     {
         id: 'sevilla',
         name: 'Sevilla',
-        logo: 'https://fifauteam.com/images/teams/Sevilla.webp',
+        // logo: 'https://fifauteam.com/images/teams/Sevilla.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -628,7 +692,8 @@ export const TEAMS = [
     {
         id: 'valencia',
         name: 'Valencia',
-        logo: 'https://fifauteam.com/images/teams/Valencia.webp',
+        // logo: 'https://fifauteam.com/images/teams/Valencia.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Valencia%20CF.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -637,7 +702,8 @@ export const TEAMS = [
     {
         id: 'beiktaistanbul',
         name: 'Beşiktaş Istanbul',
-        logo: 'https://fifauteam.com/images/teams/Besiktas.webp',
+        // logo: 'https://fifauteam.com/images/teams/Besiktas.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Besiktas%20JK.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Süper Lig',
@@ -655,7 +721,8 @@ export const TEAMS = [
     {
         id: '1899hoffenheim',
         name: '1899 Hoffenheim',
-        logo: 'https://fifauteam.com/images/teams/Hoffenheim.webp',
+        // logo: 'https://fifauteam.com/images/teams/Hoffenheim.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/TSG%201899%20Hoffenheim.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Bundesliga',
@@ -664,7 +731,8 @@ export const TEAMS = [
     {
         id: 'fcaugsburg',
         name: 'FC Augsburg',
-        logo: 'https://fifauteam.com/images/teams/Augsburg.webp',
+        // logo: 'https://fifauteam.com/images/teams/Augsburg.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/FC%20Augsburg.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Bundesliga',
@@ -673,7 +741,8 @@ export const TEAMS = [
     {
         id: 'mainz05',
         name: 'Mainz 05',
-        logo: 'https://fifauteam.com/images/teams/Mainz.webp',
+        // logo: 'https://fifauteam.com/images/teams/Mainz.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/1.FSV%20Mainz%2005.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Bundesliga',
@@ -682,16 +751,18 @@ export const TEAMS = [
     {
         id: 'svwerderbremen',
         name: 'SV Werder Bremen',
-        logo: 'https://fifauteam.com/images/teams/WerderBremen.webp',
+        // logo: 'https://fifauteam.com/images/teams/WerderBremen.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png?raw=true',
         stars: 4,
         type: 'club',
-        division: '',
-        country: ''
+        division: 'Bundesliga',
+        country: 'DE'
     },
     {
         id: 'como',
         name: 'Como',
-        logo: 'https://fifauteam.com/images/teams/Como.webp',
+        // logo: 'https://fifauteam.com/images/teams/Como.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Como%201907.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Serie A',
@@ -700,7 +771,8 @@ export const TEAMS = [
     {
         id: 'ajax',
         name: 'Ajax',
-        logo: 'https://fifauteam.com/images/teams/Ajax.webp',
+        // logo: 'https://fifauteam.com/images/teams/Ajax.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Netherlands%20-%20Eredivisie/Ajax%20Amsterdam.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Eredivisie',
@@ -709,7 +781,8 @@ export const TEAMS = [
     {
         id: 'feyenoord',
         name: 'Feyenoord',
-        logo: 'https://fifauteam.com/images/teams/Feyenoord.webp',
+        // logo: 'https://fifauteam.com/images/teams/Feyenoord.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Netherlands%20-%20Eredivisie/Feyenoord%20Rotterdam.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Eredivisie',
@@ -718,7 +791,8 @@ export const TEAMS = [
     {
         id: 'sportingdebraga',
         name: 'Sporting de Braga',
-        logo: 'https://fifauteam.com/images/teams/Braga.webp',
+        // logo: 'https://fifauteam.com/images/teams/Braga.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/SC%20Braga.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Liga Portugal',
@@ -736,7 +810,8 @@ export const TEAMS = [
     {
         id: 'celtic',
         name: 'Celtic',
-        logo: 'https://fifauteam.com/images/teams/Celtic.webp',
+        // logo: 'https://fifauteam.com/images/teams/Celtic.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Scotland%20-%20Scottish%20Premiership/Celtic%20FC.png?raw=true',
         stars: 4,
         type: 'club',
         division: 'Cinch Premiership',
@@ -754,7 +829,7 @@ export const TEAMS = [
     {
         id: 'clubbrugge',
         name: 'Club Brugge',
-        logo: 'https://fifauteam.com/images/teams/ClubBrugge.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/Club%20Brugge%20KV.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: '1a Pro League',
@@ -763,7 +838,8 @@ export const TEAMS = [
     {
         id: 'burnley',
         name: 'Burnley',
-        logo: 'https://fifauteam.com/images/teams/Burnley.webp',
+        // logo: 'https://fifauteam.com/images/teams/Burnley.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Burnley%20FC.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Premier League',
@@ -772,7 +848,8 @@ export const TEAMS = [
     {
         id: 'sunderland',
         name: 'Sunderland',
-        logo: 'https://fifauteam.com/images/teams/Sunderland.webp',
+        // logo: 'https://fifauteam.com/images/teams/Sunderland.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Sunderland%20AFC.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Premier League',
@@ -799,7 +876,8 @@ export const TEAMS = [
     {
         id: 'racingclubdelens',
         name: 'Racing Club de Lens',
-        logo: 'https://fifauteam.com/images/teams/Lens.webp',
+        // logo: 'https://fifauteam.com/images/teams/Lens.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/RC%20Lens.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Ligue 1',
@@ -808,7 +886,8 @@ export const TEAMS = [
     {
         id: 'rcstrasbourgalsace',
         name: 'RC Strasbourg Alsace',
-        logo: 'https://fifauteam.com/images/teams/Cambridge.webp',
+        // logo: 'https://fifauteam.com/images/teams/Cambridge.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/RC%20Strasbourg%20Alsace.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Ligue 1',
@@ -817,7 +896,8 @@ export const TEAMS = [
     {
         id: 'unionberlin',
         name: 'Union Berlin',
-        logo: 'https://fifauteam.com/images/teams/UnionBerlin.webp',
+        // logo: 'https://fifauteam.com/images/teams/UnionBerlin.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/1.FC%20Union%20Berlin.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Bundesliga',
@@ -835,7 +915,8 @@ export const TEAMS = [
     {
         id: 'espanyol',
         name: 'Espanyol',
-        logo: 'https://fifauteam.com/images/teams/Espanyol.webp',
+        // logo: 'https://fifauteam.com/images/teams/Espanyol.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/RCD%20Espanyol%20Barcelona.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -844,7 +925,8 @@ export const TEAMS = [
     {
         id: 'trabzonspor',
         name: 'Trabzonspor',
-        logo: 'https://fifauteam.com/images/teams/Trabzonspor.webp',
+        // logo: 'https://fifauteam.com/images/teams/Trabzonspor.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Trabzonspor.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Süper Lig',
@@ -889,7 +971,8 @@ export const TEAMS = [
     {
         id: 'genk',
         name: 'Genk',
-        logo: 'https://fifauteam.com/images/teams/Genk.webp',
+        // logo: 'https://fifauteam.com/images/teams/Genk.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/KRC%20Genk.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: '1a Pro League',
@@ -898,7 +981,8 @@ export const TEAMS = [
     {
         id: 'unionsg',
         name: 'Union SG',
-        logo: 'https://fifauteam.com/images/teams/UnionSG.webp',
+        // logo: 'https://fifauteam.com/images/teams/UnionSG.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/Union%20Saint-Gilloise.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: '1a Pro League',
@@ -916,7 +1000,8 @@ export const TEAMS = [
     {
         id: 'toulousefc',
         name: 'Toulouse FC',
-        logo: 'https://fifauteam.com/images/teams/Toulouse.webp',
+        // logo: 'https://fifauteam.com/images/teams/Toulouse.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/FC%20Toulouse.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Ligue 1',
@@ -925,7 +1010,8 @@ export const TEAMS = [
     {
         id: '1fckln',
         name: '1. FC Köln',
-        logo: 'https://fifauteam.com/images/teams/Koln.webp',
+        // logo: 'https://fifauteam.com/images/teams/Koln.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/1.FC%20K%C3%B6ln.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Bundesliga',
@@ -934,7 +1020,8 @@ export const TEAMS = [
     {
         id: 'genoa',
         name: 'Genoa',
-        logo: 'https://fifauteam.com/images/teams/Genoa.webp',
+        // logo: 'https://fifauteam.com/images/teams/Genoa.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Genoa%20CFC.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Serie A',
@@ -943,7 +1030,8 @@ export const TEAMS = [
     {
         id: 'sassuolo',
         name: 'Sassuolo',
-        logo: 'https://fifauteam.com/images/teams/Sassuolo.webp',
+        // logo: 'https://fifauteam.com/images/teams/Sassuolo.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/US%20Sassuolo.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Serie A',
@@ -952,7 +1040,8 @@ export const TEAMS = [
     {
         id: 'udinese',
         name: 'Udinese',
-        logo: 'https://fifauteam.com/images/teams/Udinese.webp',
+        // logo: 'https://fifauteam.com/images/teams/Udinese.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Serie A',
@@ -961,7 +1050,8 @@ export const TEAMS = [
     {
         id: 'az',
         name: 'AZ',
-        logo: 'https://fifauteam.com/images/teams/AZ.webp',
+        // logo: 'https://fifauteam.com/images/teams/AZ.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Netherlands%20-%20Eredivisie/AZ%20Alkmaar.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Eredivisie',
@@ -979,7 +1069,8 @@ export const TEAMS = [
     {
         id: 'rangers',
         name: 'Rangers',
-        logo: 'https://fifauteam.com/images/teams/Rangers.webp',
+        // logo: 'https://fifauteam.com/images/teams/Rangers.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Scotland%20-%20Scottish%20Premiership/Rangers%20FC.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Cinch Premiership',
@@ -988,7 +1079,8 @@ export const TEAMS = [
     {
         id: 'alavs',
         name: 'Alavés',
-        logo: 'https://fifauteam.com/images/teams/Alaves.webp',
+        // logo: 'https://fifauteam.com/images/teams/Alaves.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Deportivo%20Alav%C3%A9s.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -1033,7 +1125,8 @@ export const TEAMS = [
     {
         id: 'rscanderlecht',
         name: 'R.S.C Anderlecht',
-        logo: 'https://fifauteam.com/images/teams/Anderlecht.webp',
+        // logo: 'https://fifauteam.com/images/teams/Anderlecht.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/RSC%20Anderlecht.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: '1a Pro League',
@@ -1042,7 +1135,8 @@ export const TEAMS = [
     {
         id: 'fckbenhavn',
         name: 'FC København',
-        logo: 'https://fifauteam.com/images/teams/Kobenhavn.webp',
+        // logo: 'https://fifauteam.com/images/teams/Kobenhavn.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Denmark%20-%20Superliga/FC%20Copenhagen.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: '3f Superliga',
@@ -1060,7 +1154,8 @@ export const TEAMS = [
     {
         id: 'auxerre',
         name: 'Auxerre',
-        logo: 'https://fifauteam.com/images/teams/Auxerre.webp',
+        // logo: 'https://fifauteam.com/images/teams/Auxerre.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/AJ%20Auxerre.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Ligue 1',
@@ -1069,7 +1164,8 @@ export const TEAMS = [
     {
         id: 'fcnantes',
         name: 'FC Nantes',
-        logo: 'https://fifauteam.com/images/teams/Nantes.webp',
+        // logo: 'https://fifauteam.com/images/teams/Nantes.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/FC%20Nantes.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Ligue 1',
@@ -1078,7 +1174,8 @@ export const TEAMS = [
     {
         id: 'parisfc',
         name: 'Paris FC',
-        logo: 'https://fifauteam.com/images/teams/ParisFC.webp',
+        // logo: 'https://fifauteam.com/images/teams/ParisFC.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Paris%20FC.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Ligue 1',
@@ -1087,7 +1184,8 @@ export const TEAMS = [
     {
         id: 'stadebrestois29',
         name: 'Stade Brestois 29',
-        logo: 'https://fifauteam.com/images/teams/Brestois.webp',
+        // logo: 'https://fifauteam.com/images/teams/Brestois.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Stade%20Brestois%2029.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Ligue 1',
@@ -1105,7 +1203,8 @@ export const TEAMS = [
     {
         id: '1fcheidenheim',
         name: '1. FC Heidenheim',
-        logo: 'https://fifauteam.com/images/teams/Heidenheim.webp',
+        // logo: 'https://fifauteam.com/images/teams/Heidenheim.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/1.FC%20Heidenheim%201846.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Bundesliga',
@@ -1114,7 +1213,8 @@ export const TEAMS = [
     {
         id: 'hamburgersv',
         name: 'Hamburger SV',
-        logo: 'https://fifauteam.com/images/teams/Hamburg.webp',
+        // logo: 'https://fifauteam.com/images/teams/Hamburg.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Bundesliga',
@@ -1123,7 +1223,8 @@ export const TEAMS = [
     {
         id: 'cagliari',
         name: 'Cagliari',
-        logo: 'https://fifauteam.com/images/teams/Cagliari.webp',
+        // logo: 'https://fifauteam.com/images/teams/Cagliari.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Cagliari%20Calcio.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Serie A',
@@ -1132,7 +1233,8 @@ export const TEAMS = [
     {
         id: 'cremonese',
         name: 'Cremonese',
-        logo: 'https://fifauteam.com/images/teams/Cremonese.webp',
+        // logo: 'https://fifauteam.com/images/teams/Cremonese.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/US%20Cremonese.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Serie A',
@@ -1141,7 +1243,8 @@ export const TEAMS = [
     {
         id: 'hellasverona',
         name: 'Hellas Verona',
-        logo: 'https://fifauteam.com/images/teams/HellasVerona.webp',
+        // logo: 'https://fifauteam.com/images/teams/HellasVerona.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Hellas%20Verona.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Serie A',
@@ -1150,7 +1253,8 @@ export const TEAMS = [
     {
         id: 'lecce',
         name: 'Lecce',
-        logo: 'https://fifauteam.com/images/teams/Lecce.webp',
+        // logo: 'https://fifauteam.com/images/teams/Lecce.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/US%20Lecce.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Serie A',
@@ -1159,7 +1263,8 @@ export const TEAMS = [
     {
         id: 'parma',
         name: 'Parma',
-        logo: 'https://fifauteam.com/images/teams/Parma.webp',
+        // logo: 'https://fifauteam.com/images/teams/Parma.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Serie A',
@@ -1177,7 +1282,8 @@ export const TEAMS = [
     {
         id: 'twente',
         name: 'Twente',
-        logo: 'https://fifauteam.com/images/teams/Twente.webp',
+        // logo: 'https://fifauteam.com/images/teams/Twente.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Netherlands%20-%20Eredivisie/Twente%20Enschede%20FC.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Eredivisie',
@@ -1186,7 +1292,8 @@ export const TEAMS = [
     {
         id: 'levante',
         name: 'Levante',
-        logo: 'https://fifauteam.com/images/teams/Levante.webp',
+        // logo: 'https://fifauteam.com/images/teams/Levante.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Levante%20UD.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -1195,7 +1302,8 @@ export const TEAMS = [
     {
         id: 'realoviedo',
         name: 'Real Oviedo',
-        logo: 'https://fifauteam.com/images/teams/Oviedo.webp',
+        // logo: 'https://fifauteam.com/images/teams/Oviedo.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Real%20Oviedo.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -1213,7 +1321,8 @@ export const TEAMS = [
     {
         id: 'istanbulbaakehirfk',
         name: 'Istanbul Başakşehir FK',
-        logo: 'https://fifauteam.com/images/teams/Basaksehir.webp',
+        // logo: 'https://fifauteam.com/images/teams/Basaksehir.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Basaksehir%20FK.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Süper Lig',
@@ -1231,7 +1340,8 @@ export const TEAMS = [
     {
         id: 'olympiquedemarseille',
         name: 'Olympique de Marseille',
-        logo: 'https://fifauteam.com/images/teams/Marseille.webp',
+        // logo: 'https://fifauteam.com/images/teams/Marseille.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Olympique%20Marseille.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Ligue 1',
@@ -1276,7 +1386,8 @@ export const TEAMS = [
     {
         id: 'fcredbullsalzburg',
         name: 'FC Red Bull Salzburg',
-        logo: 'https://fifauteam.com/images/teams/RBSalzburg.webp',
+        // logo: 'https://fifauteam.com/images/teams/RBSalzburg.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Austria%20-%20Bundesliga/Red%20Bull%20Salzburg.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Admiral Bundesliga',
@@ -1285,7 +1396,8 @@ export const TEAMS = [
     {
         id: 'fcmidtjylland',
         name: 'FC Midtjylland',
-        logo: 'https://fifauteam.com/images/teams/Midtjylland.webp',
+        // logo: 'https://fifauteam.com/images/teams/Midtjylland.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Denmark%20-%20Superliga/FC%20Midtjylland.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: '3f Superliga',
@@ -1324,8 +1436,8 @@ export const TEAMS = [
         logo: 'https://fifauteam.com/images/teams/Norwich.webp',
         stars: 3.5,
         type: 'club',
-        division: '',
-        country: ''
+        division: 'Efl Championship',
+        country: 'EN'
     },
     {
         id: 'sheffieldunited',
@@ -1339,7 +1451,8 @@ export const TEAMS = [
     {
         id: 'angerssco',
         name: 'Angers SCO',
-        logo: 'https://fifauteam.com/images/teams/Angers.webp',
+        // logo: 'https://fifauteam.com/images/teams/Angers.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Angers%20SCO.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Ligue 1',
@@ -1348,7 +1461,8 @@ export const TEAMS = [
     {
         id: 'fclorient',
         name: 'FC Lorient',
-        logo: 'https://fifauteam.com/images/teams/ Lorient.webp',
+        // logo: 'https://fifauteam.com/images/teams/ Lorient.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/FC%20Lorient.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Ligue 1',
@@ -1366,7 +1480,8 @@ export const TEAMS = [
     {
         id: 'fcstpauli',
         name: 'FC St. Pauli',
-        logo: 'https://fifauteam.com/images/teams/StPauli.webp',
+        // logo: 'https://fifauteam.com/images/teams/StPauli.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/FC%20St.%20Pauli.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Bundesliga',
@@ -1387,8 +1502,8 @@ export const TEAMS = [
         logo: 'https://fifauteam.com/images/teams/Monza.webp',
         stars: 3.5,
         type: 'club',
-        division: '',
-        country: ''
+        division: 'Serie Bkt',
+        country: 'IT'
     },
     {
         id: 'venezia',
@@ -1402,7 +1517,8 @@ export const TEAMS = [
     {
         id: 'fcutrecht',
         name: 'FC Utrecht',
-        logo: 'https://fifauteam.com/images/teams/Utrecht.webp',
+        // logo: 'https://fifauteam.com/images/teams/Utrecht.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Netherlands%20-%20Eredivisie/FC%20Utrecht.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Eredivisie',
@@ -1411,7 +1527,8 @@ export const TEAMS = [
     {
         id: 'vitriadeguimares',
         name: 'Vitória de Guimarães',
-        logo: 'https://fifauteam.com/images/teams/Guimaraes.webp',
+        // logo: 'https://fifauteam.com/images/teams/Guimaraes.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/Vit%C3%B3ria%20Guimar%C3%A3es%20SC.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Liga Portugal',
@@ -1429,7 +1546,8 @@ export const TEAMS = [
     {
         id: 'bscyoungboys',
         name: 'BSC Young Boys',
-        logo: 'https://fifauteam.com/images/teams/YoungBoys.webp',
+        // logo: 'https://fifauteam.com/images/teams/YoungBoys.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Switzerland%20-%20Super%20League/BSC%20Young%20Boys.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Credit Suisse Super League',
@@ -1438,7 +1556,8 @@ export const TEAMS = [
     {
         id: 'fcbasel',
         name: 'FC Basel',
-        logo: 'https://fifauteam.com/images/teams/Basel.webp',
+        // logo: 'https://fifauteam.com/images/teams/Basel.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Switzerland%20-%20Super%20League/FC%20Basel%201893.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Credit Suisse Super League',
@@ -1447,7 +1566,8 @@ export const TEAMS = [
     {
         id: 'eypspor',
         name: 'Eyüpspor',
-        logo: 'https://fifauteam.com/images/teams/Eyupsor.webp',
+        // logo: 'https://fifauteam.com/images/teams/Eyupsor.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Ey%C3%BCpspor.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Süper Lig',
@@ -1456,7 +1576,8 @@ export const TEAMS = [
     {
         id: 'samsunspor',
         name: 'Samsunspor',
-        logo: 'https://fifauteam.com/images/teams/Samsunspor.webp',
+        // logo: 'https://fifauteam.com/images/teams/Samsunspor.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Samsunspor.png?raw=true',
         stars: 3.5,
         type: 'club',
         division: 'Süper Lig',
@@ -1519,7 +1640,8 @@ export const TEAMS = [
     {
         id: 'gent',
         name: 'Gent',
-        logo: 'https://fifauteam.com/images/teams/Gent.webp',
+        // logo: 'https://fifauteam.com/images/teams/Gent.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/KAA%20Gent.png?raw=true',
         stars: 3,
         type: 'club',
         division: '1a Pro League',
@@ -1528,16 +1650,18 @@ export const TEAMS = [
     {
         id: 'kvwesterlo',
         name: 'KV Westerlo',
-        logo: 'https://fifauteam.com/images/teams/Westerlo.webp',
+        // logo: 'https://fifauteam.com/images/teams/Westerlo.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/KVC%20Westerlo.png?raw=true',
         stars: 3,
         type: 'club',
-        division: '',
-        country: ''
+        division: '1a Pro League',
+        country: 'BE'
     },
     {
         id: 'mechelen',
         name: 'Mechelen',
-        logo: 'https://fifauteam.com/images/teams/Mechelen.webp',
+        // logo: 'https://fifauteam.com/images/teams/Mechelen.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/KV%20Mechelen.png?raw=true',
         stars: 3,
         type: 'club',
         division: '1a Pro League',
@@ -1546,11 +1670,12 @@ export const TEAMS = [
     {
         id: 'royalantwerp',
         name: 'Royal Antwerp',
-        logo: 'https://fifauteam.com/images/teams/Antwerp.webp',
+        // logo: 'https://fifauteam.com/images/teams/Antwerp.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/Royal%20Antwerp%20FC.png?raw=true',
         stars: 3,
         type: 'club',
-        division: '',
-        country: ''
+        division: '1a Pro League',
+        country: 'BE'
     },
     {
         id: 'hullcity',
@@ -1618,7 +1743,8 @@ export const TEAMS = [
     {
         id: 'fcmetz',
         name: 'FC Metz',
-        logo: 'https://fifauteam.com/images/teams/Metz.webp',
+        // logo: 'https://fifauteam.com/images/teams/Metz.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/FC%20Metz.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Ligue 1',
@@ -1627,7 +1753,8 @@ export const TEAMS = [
     {
         id: 'havreac',
         name: 'Havre AC',
-        logo: 'https://fifauteam.com/images/teams/Havre.webp',
+        // logo: 'https://fifauteam.com/images/teams/Havre.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Le%20Havre%20AC.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Ligue 1',
@@ -1672,7 +1799,8 @@ export const TEAMS = [
     {
         id: 'pisa',
         name: 'Pisa',
-        logo: 'https://fifauteam.com/images/teams/Pisa.webp',
+        // logo: 'https://fifauteam.com/images/teams/Pisa.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Pisa%20Sporting%20Club.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Serie A',
@@ -1681,7 +1809,8 @@ export const TEAMS = [
     {
         id: 'necnijmegen',
         name: 'NEC Nijmegen',
-        logo: 'https://fifauteam.com/images/teams/NEC.webp',
+        // logo: 'https://fifauteam.com/images/teams/NEC.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Netherlands%20-%20Eredivisie/NEC%20Nijmegen.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Eredivisie',
@@ -1690,7 +1819,8 @@ export const TEAMS = [
     {
         id: 'bodglimt',
         name: 'Bodø/Glimt',
-        logo: 'https://fifauteam.com/images/teams/Glimt.webp',
+        // logo: 'https://fifauteam.com/images/teams/Glimt.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Norway%20-%20Eliteserien/FK%20Bod%C3%B8Glimt.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Eliteserien',
@@ -1699,7 +1829,8 @@ export const TEAMS = [
     {
         id: 'lechpozna',
         name: 'Lech Poznań',
-        logo: 'https://fifauteam.com/images/teams/LechPoznan.webp',
+        // logo: 'https://fifauteam.com/images/teams/LechPoznan.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Lech%20Poznan.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Pko Ekstraklasa',
@@ -1708,7 +1839,8 @@ export const TEAMS = [
     {
         id: 'rakwczstochowa',
         name: 'Raków Częstochowa',
-        logo: 'https://fifauteam.com/images/teams/Czestochowa.webp',
+        // logo: 'https://fifauteam.com/images/teams/Czestochowa.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Rak%C3%B3w%20Cz%C4%99stochowa.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Pko Ekstraklasa',
@@ -1717,7 +1849,8 @@ export const TEAMS = [
     {
         id: 'estoril',
         name: 'Estoril',
-        logo: 'https://fifauteam.com/images/teams/Estoril.webp',
+        // logo: 'https://fifauteam.com/images/teams/Estoril.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/GD%20Estoril%20Praia.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Liga Portugal',
@@ -1726,7 +1859,8 @@ export const TEAMS = [
     {
         id: 'famalico',
         name: 'Famalicão',
-        logo: 'https://fifauteam.com/images/teams/Famalicao.webp',
+        // logo: 'https://fifauteam.com/images/teams/Famalicao.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/FC%20Famalic%C3%A3o.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Liga Portugal',
@@ -1735,7 +1869,8 @@ export const TEAMS = [
     {
         id: 'santaclara',
         name: 'Santa Clara',
-        logo: 'https://fifauteam.com/images/teams/SantaClara.webp',
+        // logo: 'https://fifauteam.com/images/teams/SantaClara.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/CD%20Santa%20Clara.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Liga Portugal',
@@ -1753,7 +1888,8 @@ export const TEAMS = [
     {
         id: 'elche',
         name: 'Elche',
-        logo: 'https://fifauteam.com/images/teams/Elche.webp',
+        // logo: 'https://fifauteam.com/images/teams/Elche.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Elche%20CF.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Laliga Ea Sports',
@@ -1807,7 +1943,8 @@ export const TEAMS = [
     {
         id: 'malmff',
         name: 'Malmö FF',
-        logo: 'https://fifauteam.com/images/teams/Malmo.webp',
+        // logo: 'https://fifauteam.com/images/teams/Malmo.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Sweden%20-%20Allsvenskan/Malm%C3%B6%20FF.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Allsvenskan',
@@ -1870,7 +2007,8 @@ export const TEAMS = [
     {
         id: 'rcstrasbourgalsace',
         name: 'RC Strasbourg Alsace',
-        logo: 'https://fifauteam.com/images/teams/Cambridge.webp',
+        // logo: 'https://fifauteam.com/images/teams/Cambridge.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/RC%20Strasbourg%20Alsace.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Ligue 1',
@@ -1918,8 +2056,8 @@ export const TEAMS = [
         logo: 'https://fifauteam.com/images/teams/InstitutoCordoba.webp',
         stars: 3,
         type: 'club',
-        division: '',
-        country: ''
+        division: 'Liga Profesional De Fútbol',
+        country: 'AR'
     },
     {
         id: 'platense',
@@ -1951,7 +2089,8 @@ export const TEAMS = [
     {
         id: 'fkaustriawien',
         name: 'FK Austria Wien',
-        logo: 'https://fifauteam.com/images/teams/AustriaWien.webp',
+        // logo: 'https://fifauteam.com/images/teams/AustriaWien.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Austria%20-%20Bundesliga/Austria%20Vienna.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Admiral Bundesliga',
@@ -1960,7 +2099,8 @@ export const TEAMS = [
     {
         id: 'skrapidwien',
         name: 'SK Rapid Wien',
-        logo: 'https://fifauteam.com/images/teams/RapidWien.webp',
+        // logo: 'https://fifauteam.com/images/teams/RapidWien.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Austria%20-%20Bundesliga/Rapid%20Vienna.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Admiral Bundesliga',
@@ -1969,7 +2109,8 @@ export const TEAMS = [
     {
         id: 'sksturmgraz',
         name: 'SK Sturm Graz',
-        logo: 'https://fifauteam.com/images/teams/SturmGraz.webp',
+        // logo: 'https://fifauteam.com/images/teams/SturmGraz.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Austria%20-%20Bundesliga/SK%20Sturm%20Graz.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Admiral Bundesliga',
@@ -1978,7 +2119,8 @@ export const TEAMS = [
     {
         id: 'charleroi',
         name: 'Charleroi',
-        logo: 'https://fifauteam.com/images/teams/Charleroi.webp',
+        // logo: 'https://fifauteam.com/images/teams/Charleroi.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/Royal%20Charleroi%20SC.png?raw=true',
         stars: 3,
         type: 'club',
         division: '1a Pro League',
@@ -1987,7 +2129,8 @@ export const TEAMS = [
     {
         id: 'leuven',
         name: 'Leuven',
-        logo: 'https://fifauteam.com/images/teams/Leuven.webp',
+        // logo: 'https://fifauteam.com/images/teams/Leuven.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/Oud-Heverlee%20Leuven.png?raw=true',
         stars: 3,
         type: 'club',
         division: '1a Pro League',
@@ -1996,7 +2139,8 @@ export const TEAMS = [
     {
         id: 'standardlige',
         name: 'Standard Liège',
-        logo: 'https://fifauteam.com/images/teams/StandardLiege.webp',
+        // logo: 'https://fifauteam.com/images/teams/StandardLiege.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/Standard%20Li%C3%A8ge.png?raw=true',
         stars: 3,
         type: 'club',
         division: '1a Pro League',
@@ -2005,11 +2149,12 @@ export const TEAMS = [
     {
         id: 'aarhusgf',
         name: 'Aarhus GF',
-        logo: 'https://fifauteam.com/images/teams/Aarhus.webp',
+        // logo: 'https://fifauteam.com/images/teams/Aarhus.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Denmark%20-%20Superliga/Aarhus%20GF.png?raw=true',
         stars: 3,
         type: 'club',
-        division: '',
-        country: ''
+        division: '3f Superliga',
+        country: 'DK'
     },
     {
         id: 'blackburnrovers',
@@ -2131,7 +2276,8 @@ export const TEAMS = [
     {
         id: 'goaheadeagles',
         name: 'Go Ahead Eagles',
-        logo: 'https://fifauteam.com/images/teams/GoAheadEagles.webp',
+        // logo: 'https://fifauteam.com/images/teams/GoAheadEagles.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Netherlands%20-%20Eredivisie/Go%20Ahead%20Eagles.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Eredivisie',
@@ -2140,7 +2286,8 @@ export const TEAMS = [
     {
         id: 'molde',
         name: 'Molde',
-        logo: 'https://fifauteam.com/images/teams/Molde.webp',
+        // logo: 'https://fifauteam.com/images/teams/Molde.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Norway%20-%20Eliteserien/Molde%20FK.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Eliteserien',
@@ -2149,7 +2296,8 @@ export const TEAMS = [
     {
         id: 'legiawarszawa',
         name: 'Legia Warszawa',
-        logo: 'https://fifauteam.com/images/teams/LegiaWarszawa.webp',
+        // logo: 'https://fifauteam.com/images/teams/LegiaWarszawa.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Legia%20Warszawa.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Pko Ekstraklasa',
@@ -2158,7 +2306,8 @@ export const TEAMS = [
     {
         id: 'arouca',
         name: 'Arouca',
-        logo: 'https://fifauteam.com/images/teams/Arouca.webp',
+        // logo: 'https://fifauteam.com/images/teams/Arouca.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/FC%20Arouca.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Liga Portugal',
@@ -2167,7 +2316,8 @@ export const TEAMS = [
     {
         id: 'casapia',
         name: 'Casa Pia',
-        logo: 'https://fifauteam.com/images/teams/CasaPia.webp',
+        // logo: 'https://fifauteam.com/images/teams/CasaPia.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/Casa%20Pia%20AC.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Liga Portugal',
@@ -2176,7 +2326,8 @@ export const TEAMS = [
     {
         id: 'gilvicente',
         name: 'Gil Vicente',
-        logo: 'https://fifauteam.com/images/teams/GilVicente.webp',
+        // logo: 'https://fifauteam.com/images/teams/GilVicente.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/Gil%20Vicente%20FC.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Liga Portugal',
@@ -2185,7 +2336,8 @@ export const TEAMS = [
     {
         id: 'rioave',
         name: 'Rio Ave',
-        logo: 'https://fifauteam.com/images/teams/RioAve.webp',
+        // logo: 'https://fifauteam.com/images/teams/RioAve.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/Rio%20Ave%20FC.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Liga Portugal',
@@ -2257,7 +2409,8 @@ export const TEAMS = [
     {
         id: 'fclugano',
         name: 'FC Lugano',
-        logo: 'https://fifauteam.com/images/teams/Lugano.webp',
+        // logo: 'https://fifauteam.com/images/teams/Lugano.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Switzerland%20-%20Super%20League/FC%20Lugano.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Credit Suisse Super League',
@@ -2266,7 +2419,8 @@ export const TEAMS = [
     {
         id: 'fcstgallen',
         name: 'FC St. Gallen',
-        logo: 'https://fifauteam.com/images/teams/StGallen.webp',
+        // logo: 'https://fifauteam.com/images/teams/StGallen.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Switzerland%20-%20Super%20League/FC%20St.%20Gallen%201879.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Credit Suisse Super League',
@@ -2275,7 +2429,8 @@ export const TEAMS = [
     {
         id: 'servettefc',
         name: 'Servette FC',
-        logo: 'https://fifauteam.com/images/teams/Servette.webp',
+        // logo: 'https://fifauteam.com/images/teams/Servette.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Switzerland%20-%20Super%20League/Servette%20FC.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Credit Suisse Super League',
@@ -2284,7 +2439,8 @@ export const TEAMS = [
     {
         id: 'alanyaspor',
         name: 'Alanyaspor',
-        logo: 'https://fifauteam.com/images/teams/Alanyaspor.webp',
+        // logo: 'https://fifauteam.com/images/teams/Alanyaspor.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Alanyaspor.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Süper Lig',
@@ -2293,7 +2449,8 @@ export const TEAMS = [
     {
         id: 'gaziehirgaziantepfk',
         name: 'Gazişehir Gaziantep FK',
-        logo: 'https://fifauteam.com/images/teams/Gaziantep.webp',
+        // logo: 'https://fifauteam.com/images/teams/Gaziantep.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Gaziantep%20FK.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Süper Lig',
@@ -2302,7 +2459,8 @@ export const TEAMS = [
     {
         id: 'konyaspor',
         name: 'Konyaspor',
-        logo: 'https://fifauteam.com/images/teams/Konyaspor.webp',
+        // logo: 'https://fifauteam.com/images/teams/Konyaspor.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Konyaspor.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Süper Lig',
@@ -2311,11 +2469,12 @@ export const TEAMS = [
     {
         id: 'aykurrizespor',
         name: 'Çaykur Rizespor',
-        logo: 'https://fifauteam.com/images/teams/Rizespor.webp',
+        // logo: 'https://fifauteam.com/images/teams/Rizespor.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Caykur%20Rizespor.png?raw=true',
         stars: 3,
         type: 'club',
-        division: '',
-        country: ''
+        division: 'Süper Lig',
+        country: 'TR'
     },
     {
         id: 'austinfc',
@@ -2422,8 +2581,8 @@ export const TEAMS = [
         logo: 'https://fifauteam.com/images/teams/StLouisCity.webp',
         stars: 3,
         type: 'club',
-        division: '',
-        country: ''
+        division: 'Major League Soccer',
+        country: 'US'
     },
     {
         id: 'assainttienne',
@@ -2437,7 +2596,8 @@ export const TEAMS = [
     {
         id: 'racingclubdelens',
         name: 'Racing Club de Lens',
-        logo: 'https://fifauteam.com/images/teams/Lens.webp',
+        // logo: 'https://fifauteam.com/images/teams/Lens.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/RC%20Lens.png?raw=true',
         stars: 3,
         type: 'club',
         division: 'Ligue 1',
@@ -2449,8 +2609,8 @@ export const TEAMS = [
         logo: 'https://fifauteam.com/images/teams/Aldosivi.webp',
         stars: 2.5,
         type: 'club',
-        division: '',
-        country: ''
+        division: 'Liga Profesional De Fútbol',
+        country: 'AR'
     },
     {
         id: 'tigre',
@@ -2464,7 +2624,8 @@ export const TEAMS = [
     {
         id: 'lask',
         name: 'LASK',
-        logo: 'https://fifauteam.com/images/teams/LASK.webp',
+        // logo: 'https://fifauteam.com/images/teams/LASK.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Austria%20-%20Bundesliga/LASK.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Admiral Bundesliga',
@@ -2473,7 +2634,8 @@ export const TEAMS = [
     {
         id: 'wolfsbergerac',
         name: 'Wolfsberger AC',
-        logo: 'https://fifauteam.com/images/teams/Wolfsberger.webp',
+        // logo: 'https://fifauteam.com/images/teams/Wolfsberger.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Austria%20-%20Bundesliga/Wolfsberger%20AC.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Admiral Bundesliga',
@@ -2500,7 +2662,8 @@ export const TEAMS = [
     {
         id: 'brndbyif',
         name: 'Brøndby IF',
-        logo: 'https://fifauteam.com/images/teams/Brondby.webp',
+        // logo: 'https://fifauteam.com/images/teams/Brondby.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Denmark%20-%20Superliga/Br%C3%B6ndby%20IF.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: '3f Superliga',
@@ -2509,7 +2672,8 @@ export const TEAMS = [
     {
         id: 'randersfc',
         name: 'Randers FC',
-        logo: 'https://fifauteam.com/images/teams/Randers.webp',
+        // logo: 'https://fifauteam.com/images/teams/Randers.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Denmark%20-%20Superliga/Randers%20FC.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: '3f Superliga',
@@ -2566,8 +2730,8 @@ export const TEAMS = [
         logo: 'https://fifauteam.com/images/teams/Schalke04.webp',
         stars: 2.5,
         type: 'club',
-        division: '',
-        country: ''
+        division: '2. Bundesliga',
+        country: 'DE'
     },
     {
         id: 'greutherfrth',
@@ -2611,8 +2775,8 @@ export const TEAMS = [
         logo: 'https://fifauteam.com/images/teams/Daejeon.webp',
         stars: 2.5,
         type: 'club',
-        division: '',
-        country: ''
+        division: 'K-league 1',
+        country: 'KR'
     },
     {
         id: 'fcseoul',
@@ -2644,7 +2808,8 @@ export const TEAMS = [
     {
         id: 'fortunasittard',
         name: 'Fortuna Sittard',
-        logo: 'https://fifauteam.com/images/teams/FortunaSittard.webp',
+        // logo: 'https://fifauteam.com/images/teams/FortunaSittard.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Netherlands%20-%20Eredivisie/Fortuna%20Sittard.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Eredivisie',
@@ -2653,7 +2818,8 @@ export const TEAMS = [
     {
         id: 'rosenborg',
         name: 'Rosenborg',
-        logo: 'https://fifauteam.com/images/teams/Rosenborg.webp',
+        // logo: 'https://fifauteam.com/images/teams/Rosenborg.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Norway%20-%20Eliteserien/Rosenborg%20BK.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Eliteserien',
@@ -2662,7 +2828,8 @@ export const TEAMS = [
     {
         id: 'skbrann',
         name: 'SK Brann',
-        logo: 'https://fifauteam.com/images/teams/Brann.webp',
+        // logo: 'https://fifauteam.com/images/teams/Brann.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Norway%20-%20Eliteserien/SK%20Brann.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Eliteserien',
@@ -2671,7 +2838,8 @@ export const TEAMS = [
     {
         id: 'viking',
         name: 'Viking',
-        logo: 'https://fifauteam.com/images/teams/Viking.webp',
+        // logo: 'https://fifauteam.com/images/teams/Viking.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Norway%20-%20Eliteserien/Viking%20FK.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Eliteserien',
@@ -2680,7 +2848,8 @@ export const TEAMS = [
     {
         id: 'jagielloniabiaystok',
         name: 'Jagiellonia Białystok',
-        logo: 'https://fifauteam.com/images/teams/Jagiellonia.webp',
+        // logo: 'https://fifauteam.com/images/teams/Jagiellonia.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Jagiellonia%20Bialystok.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Pko Ekstraklasa',
@@ -2689,7 +2858,8 @@ export const TEAMS = [
     {
         id: 'pogoszczecin',
         name: 'Pogoń Szczecin',
-        logo: 'https://fifauteam.com/images/teams/Szczecin.webp',
+        // logo: 'https://fifauteam.com/images/teams/Szczecin.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Pogon%20Szczecin.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Pko Ekstraklasa',
@@ -2698,7 +2868,8 @@ export const TEAMS = [
     {
         id: 'avs',
         name: 'AVS',
-        logo: 'https://fifauteam.com/images/teams/Aves.webp',
+        // logo: 'https://fifauteam.com/images/teams/Aves.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/Avs%20Futebol.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Liga Portugal',
@@ -2707,7 +2878,8 @@ export const TEAMS = [
     {
         id: 'cdnacional',
         name: 'CD Nacional',
-        logo: 'https://fifauteam.com/images/teams/NacionalMadeira.webp',
+        // logo: 'https://fifauteam.com/images/teams/NacionalMadeira.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/CD%20Nacional.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Liga Portugal',
@@ -2716,7 +2888,8 @@ export const TEAMS = [
     {
         id: 'estrelaamadora',
         name: 'Estrela Amadora',
-        logo: 'https://fifauteam.com/images/teams/EstrelaAmadora.webp',
+        // logo: 'https://fifauteam.com/images/teams/EstrelaAmadora.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/CF%20Estrela%20Amadora.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Liga Portugal',
@@ -2725,7 +2898,8 @@ export const TEAMS = [
     {
         id: 'moreirense',
         name: 'Moreirense',
-        logo: 'https://fifauteam.com/images/teams/Moreirense.webp',
+        // logo: 'https://fifauteam.com/images/teams/Moreirense.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/Moreirense%20FC.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Liga Portugal',
@@ -2734,25 +2908,28 @@ export const TEAMS = [
     {
         id: 'cfrcluj',
         name: 'CFR Cluj',
-        logo: 'https://fifauteam.com/images/teams/Cluj.webp',
+        // logo: 'https://fifauteam.com/images/teams/Cluj.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Romania%20-%20SuperLiga/CFR%20Cluj.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Superliga',
-        country: 'DK'
+        country: 'RO'
     },
     {
         id: 'universitateacraiova',
         name: 'Universitatea Craiova',
-        logo: 'https://fifauteam.com/images/teams/Craiova.webp',
+        // logo: 'https://fifauteam.com/images/teams/Craiova.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Romania%20-%20SuperLiga/CS%20Universitatea%20Craiova.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Superliga',
-        country: 'DK'
+        country: 'RO'
     },
     {
         id: 'heartofmidlothian',
         name: 'Heart of Midlothian',
-        logo: 'https://fifauteam.com/images/teams/Hearts.webp',
+        // logo: 'https://fifauteam.com/images/teams/Hearts.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Scotland%20-%20Scottish%20Premiership/Heart%20of%20Midlothian%20FC.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Cinch Premiership',
@@ -2761,7 +2938,8 @@ export const TEAMS = [
     {
         id: 'hibernian',
         name: 'Hibernian',
-        logo: 'https://fifauteam.com/images/teams/Hibernian.webp',
+        // logo: 'https://fifauteam.com/images/teams/Hibernian.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Scotland%20-%20Scottish%20Premiership/Hibernian%20FC.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Cinch Premiership',
@@ -2806,7 +2984,8 @@ export const TEAMS = [
     {
         id: 'aik',
         name: 'AIK',
-        logo: 'https://fifauteam.com/images/teams/AIK.webp',
+        // logo: 'https://fifauteam.com/images/teams/AIK.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Sweden%20-%20Allsvenskan/AIK.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Allsvenskan',
@@ -2815,7 +2994,8 @@ export const TEAMS = [
     {
         id: 'bkhcken',
         name: 'BK Häcken',
-        logo: 'https://fifauteam.com/images/teams/Hacken.webp',
+        // logo: 'https://fifauteam.com/images/teams/Hacken.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Sweden%20-%20Allsvenskan/BK%20H%C3%A4cken.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Allsvenskan',
@@ -2824,7 +3004,8 @@ export const TEAMS = [
     {
         id: 'djurgrdensif',
         name: 'Djurgårdens IF',
-        logo: 'https://fifauteam.com/images/teams/Djurgardens.webp',
+        // logo: 'https://fifauteam.com/images/teams/Djurgardens.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Sweden%20-%20Allsvenskan/Djurg%C3%A5rdens%20IF.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Allsvenskan',
@@ -2833,7 +3014,8 @@ export const TEAMS = [
     {
         id: 'hammarbyif',
         name: 'Hammarby IF',
-        logo: 'https://fifauteam.com/images/teams/Hammarby.webp',
+        // logo: 'https://fifauteam.com/images/teams/Hammarby.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Sweden%20-%20Allsvenskan/Hammarby%20IF.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Allsvenskan',
@@ -2842,7 +3024,8 @@ export const TEAMS = [
     {
         id: 'ifelfsborg',
         name: 'IF Elfsborg',
-        logo: 'https://fifauteam.com/images/teams/Elfsborg.webp',
+        // logo: 'https://fifauteam.com/images/teams/Elfsborg.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Sweden%20-%20Allsvenskan/IF%20Elfsborg.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Allsvenskan',
@@ -2851,7 +3034,8 @@ export const TEAMS = [
     {
         id: 'antalyaspor',
         name: 'Antalyaspor',
-        logo: 'https://fifauteam.com/images/teams/Antalyaspor.webp',
+        // logo: 'https://fifauteam.com/images/teams/Antalyaspor.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Antalyaspor.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Süper Lig',
@@ -2860,7 +3044,8 @@ export const TEAMS = [
     {
         id: 'kasmpaaistanbul',
         name: 'Kasımpaşa Istanbul',
-        logo: 'https://fifauteam.com/images/teams/Kasimpasa.webp',
+        // logo: 'https://fifauteam.com/images/teams/Kasimpasa.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Kasimpasa.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Süper Lig',
@@ -2869,7 +3054,8 @@ export const TEAMS = [
     {
         id: 'kocaelispor',
         name: 'Kocaelispor',
-        logo: 'https://fifauteam.com/images/teams/Kocaelispor.webp',
+        // logo: 'https://fifauteam.com/images/teams/Kocaelispor.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Kocaelispor.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Süper Lig',
@@ -2923,7 +3109,8 @@ export const TEAMS = [
     {
         id: 'cerclebrugge',
         name: 'Cercle Brugge',
-        logo: 'https://fifauteam.com/images/teams/CercleBrugge.webp',
+        // logo: 'https://fifauteam.com/images/teams/CercleBrugge.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/Cercle%20Brugge.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: '1a Pro League',
@@ -2932,7 +3119,8 @@ export const TEAMS = [
     {
         id: 'dendereh',
         name: 'Dender EH',
-        logo: 'https://fifauteam.com/images/teams/Dender.webp',
+        // logo: 'https://fifauteam.com/images/teams/Dender.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/FCV%20Dender%20EH.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: '1a Pro League',
@@ -2941,7 +3129,8 @@ export const TEAMS = [
     {
         id: 'sinttruiden',
         name: 'Sint-Truiden',
-        logo: 'https://fifauteam.com/images/teams/Truiden.webp',
+        // logo: 'https://fifauteam.com/images/teams/Truiden.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Belgium%20-%20Jupiler%20Pro%20League/Sint-Truidense%20VV.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: '1a Pro League',
@@ -2959,7 +3148,8 @@ export const TEAMS = [
     {
         id: 'fcnordsjlland',
         name: 'FC Nordsjælland',
-        logo: 'https://fifauteam.com/images/teams/Nordsjaelland.webp',
+        // logo: 'https://fifauteam.com/images/teams/Nordsjaelland.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Denmark%20-%20Superliga/FC%20Nordsjaelland.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: '3f Superliga',
@@ -2968,7 +3158,8 @@ export const TEAMS = [
     {
         id: 'silkeborgif',
         name: 'Silkeborg IF',
-        logo: 'https://fifauteam.com/images/teams/Silkeborg.webp',
+        // logo: 'https://fifauteam.com/images/teams/Silkeborg.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Denmark%20-%20Superliga/Silkeborg%20IF.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: '3f Superliga',
@@ -2998,8 +3189,8 @@ export const TEAMS = [
         logo: 'https://fifauteam.com/images/teams/Laval.webp',
         stars: 2.5,
         type: 'club',
-        division: '',
-        country: ''
+        division: 'Ligue 2',
+        country: 'FR'
     },
     {
         id: 'dynamodresden',
@@ -3043,8 +3234,8 @@ export const TEAMS = [
         logo: 'https://fifauteam.com/images/teams/Carrarese.webp',
         stars: 2.5,
         type: 'club',
-        division: '',
-        country: ''
+        division: 'Serie Bkt',
+        country: 'IT'
     },
     {
         id: 'catanzaro',
@@ -3094,7 +3285,8 @@ export const TEAMS = [
     {
         id: 'scheerenveen',
         name: 'SC Heerenveen',
-        logo: 'https://fifauteam.com/images/teams/Heerenveen.webp',
+        // logo: 'https://fifauteam.com/images/teams/Heerenveen.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Netherlands%20-%20Eredivisie/SC%20Heerenveen.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Eredivisie',
@@ -3103,7 +3295,8 @@ export const TEAMS = [
     {
         id: 'spartarotterdam',
         name: 'Sparta Rotterdam',
-        logo: 'https://fifauteam.com/images/teams/SpartaRotterdam.webp',
+        // logo: 'https://fifauteam.com/images/teams/SpartaRotterdam.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Netherlands%20-%20Eredivisie/Sparta%20Rotterdam.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Eredivisie',
@@ -3112,7 +3305,8 @@ export const TEAMS = [
     {
         id: 'cracovia',
         name: 'Cracovia',
-        logo: 'https://fifauteam.com/images/teams/Cracovia.webp',
+        // logo: 'https://fifauteam.com/images/teams/Cracovia.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Cracovia.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Pko Ekstraklasa',
@@ -3121,7 +3315,8 @@ export const TEAMS = [
     {
         id: 'grnikzabrze',
         name: 'Górnik Zabrze',
-        logo: 'https://fifauteam.com/images/teams/Zabrze.webp',
+        // logo: 'https://fifauteam.com/images/teams/Zabrze.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/G%C3%B3rnik%20Zabrze.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Pko Ekstraklasa',
@@ -3130,7 +3325,8 @@ export const TEAMS = [
     {
         id: 'widzewd',
         name: 'Widzew Łódź',
-        logo: 'https://fifauteam.com/images/teams/WidzewLodz.webp',
+        // logo: 'https://fifauteam.com/images/teams/WidzewLodz.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Widzew%20Lodz.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Pko Ekstraklasa',
@@ -3139,7 +3335,8 @@ export const TEAMS = [
     {
         id: 'tondela',
         name: 'Tondela',
-        logo: 'https://fifauteam.com/images/teams/Tondela.webp',
+        // logo: 'https://fifauteam.com/images/teams/Tondela.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Portugal%20-%20Liga%20Portugal/CD%20Tondela.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Liga Portugal',
@@ -3148,34 +3345,38 @@ export const TEAMS = [
     {
         id: 'dinamobucuresti',
         name: 'Dinamo Bucuresti',
-        logo: 'https://fifauteam.com/images/teams/DinamoBucuresti.webp',
+        // logo: 'https://fifauteam.com/images/teams/DinamoBucuresti.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Romania%20-%20SuperLiga/FC%20Dinamo%201948.png?raw=true',
         stars: 2.5,
         type: 'club',
-        division: '',
-        country: ''
+        division: 'Superliga',
+        country: 'RO'
     },
     {
         id: 'rapidbucureti',
         name: 'Rapid București',
-        logo: 'https://fifauteam.com/images/teams/RapidBucaresti.webp',
+        // logo: 'https://fifauteam.com/images/teams/RapidBucaresti.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Romania%20-%20SuperLiga/FC%20Rapid%201923.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Superliga',
-        country: 'DK'
+        country: 'RO'
     },
     {
         id: 'universitateacluj',
         name: 'Universitatea Cluj',
-        logo: 'https://fifauteam.com/images/teams/UniversitateaCluj.webp',
+        // logo: 'https://fifauteam.com/images/teams/UniversitateaCluj.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Romania%20-%20SuperLiga/FC%20Universitatea%20Cluj.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Superliga',
-        country: 'DK'
+        country: 'RO'
     },
     {
         id: 'aberdeen',
         name: 'Aberdeen',
-        logo: 'https://fifauteam.com/images/teams/Aberdeen.webp',
+        // logo: 'https://fifauteam.com/images/teams/Aberdeen.webp',
+        logo: 'https://github.com/luukhopman/football-logos/blob/master/logos/Scotland%20-%20Scottish%20Premiership/Aberdeen%20FC.png?raw=true',
         stars: 2.5,
         type: 'club',
         division: 'Cinch Premiership',
