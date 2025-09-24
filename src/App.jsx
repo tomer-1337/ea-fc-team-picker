@@ -193,7 +193,7 @@ export default function App() {
 
       {history.length > 0 && (
         <section style={{ ...section, marginTop: 8 }}>
-          <div style={{ fontWeight: 800, marginBottom: 6 }}>Matchup History</div>
+          <div style={{ fontWeight: 800, marginBottom: 20 }}>Matchup History</div>
           <div style={{ maxHeight: 120, overflowY: 'auto', paddingRight: 4 }}>
             {history.map((m, idx) => (
               <HistoryRow key={idx} left={m.left} right={m.right} />)
