@@ -15,7 +15,7 @@ export default function CountryFilterModal({open, countries, selected, onClose, 
     }, [open])
 
     if (!visible) return null
-
+    
     return (
         <div className={`${styles.overlay} ${open ? styles.overlayOpen : styles.overlayClose}`} onClick={onClose}>
             <div className={`${styles.sheet} ${open ? styles.sheetOpen : styles.sheetClose}`} onClick={(e) => e.stopPropagation()}>

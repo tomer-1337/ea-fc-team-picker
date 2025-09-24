@@ -251,6 +251,7 @@ export const COUNTRIES = [
     { id: 'ZA', name: 'South Africa', flag: '🇿🇦', continent: 'africa' },
     { id: 'ZM', name: 'Zambia', flag: '🇿🇲', continent: 'africa' },
     { id: 'ZW', name: 'Zimbabwe', flag: '🇿🇼', continent: 'africa' },
+    { id: '', name: 'Unknown', flag: '⬜️', continent: 'earth' },
 ]
 
 export function getCountryById(id) {

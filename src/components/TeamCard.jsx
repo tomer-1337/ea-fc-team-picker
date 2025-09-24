@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './TeamCard.module.css'
 import {getCountryById} from "../data/countries.js";
-import {getDivisionByTeam} from "../data/divisions.js";
 
 const GENERIC_LOGO = 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Soccerball.svg'
 
@@ -33,8 +32,7 @@ function Stars({value}) {
 
 export default function TeamCard({team, animateKey = 0}) {
     if (!team) return null
-    const division = getDivisionByTeam(team.name)
-    const divisionText = team.type === 'country' ? 'International' : (division || '')
+    const divisionText = team.type === 'country' ? 'International' : (team.division || '')
     const country = getCountryById(team.country)
     return (
         <div

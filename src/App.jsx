@@ -73,7 +73,9 @@ export default function App() {
 
     const countries = useMemo(() => {
         const map = new Map()
-        baseFiltered.forEach((t) => {map.set(t.country, getCountryById(t.country))})
+        baseFiltered.forEach((t) => {
+            map.set(t.country, getCountryById(t.country))
+        })
         return Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name))
     }, [baseFiltered])
 
@@ -122,6 +124,9 @@ export default function App() {
     function clearCountries() {
         setState((s) => ({...s, countries: []}))
     }
+
+    console.log(TEAMS)
+    console.log(COUNTRIES)
 
     return (
         <div className={styles.app}>
