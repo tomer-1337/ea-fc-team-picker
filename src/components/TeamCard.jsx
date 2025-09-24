@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './TeamCard.module.css'
+import {getCountryById} from "../data/countries.js";
+import {getDivisionByTeam} from "../data/divisions.js";
 
 const GENERIC_LOGO = 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Soccerball.svg'
 
@@ -31,7 +33,9 @@ function Stars({value}) {
 
 export default function TeamCard({team, animateKey = 0}) {
     if (!team) return null
-    const divisionText = team.type === 'country' ? 'International' : (team.division || '')
+    const division = getDivisionByTeam(team.name)
+    const divisionText = team.type === 'country' ? 'International' : (division || '')
+    const country = getCountryById(team.country)
     return (
         <div
             className={`${styles.card} ${animateKey ? styles.slideRight : styles.slideLeft} ${animateKey ? styles.delay1 : styles.delay0}`}>
@@ -41,10 +45,12 @@ export default function TeamCard({team, animateKey = 0}) {
             }}/>
             <div className={styles.name}>{team.name}</div>
             <Stars value={team.stars}/>
-            <div className={styles.meta}>
-                <span className={styles.flag}>{team.country.flag}</span>
-                {team.country.name}
-            </div>
+            {country && (
+                <div className={styles.meta}>
+                    <span className={styles.flag}>{country.flag}</span>
+                    {country.name}
+                </div>
+            )}
             <div className={styles.meta}>{divisionText}</div>
         </div>
     )

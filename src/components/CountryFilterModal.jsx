@@ -22,11 +22,11 @@ export default function CountryFilterModal({open, countries, selected, onClose, 
                 <div className={styles.title}>Country Filters</div>
                 <div className={styles.grid}>
                     {countries.map((c) => (
-                        <label key={c.code} className={styles.row}>
+                        <label key={c.id} className={styles.row}>
                             <input
                                 type="checkbox"
-                                checked={selected.includes(c.code)}
-                                onChange={() => onSave({toggle: c.code})}
+                                checked={selected.includes(c.id)}
+                                onChange={() => onSave({toggle: c.id})}
                             />
                             <span>{c.flag}</span>
                             <span className={styles.countryName}>{c.name}</span>

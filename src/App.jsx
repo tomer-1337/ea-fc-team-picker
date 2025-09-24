@@ -7,6 +7,7 @@ import FiltersPanel from './components/FiltersPanel.jsx'
 import GenerateButton from './components/GenerateButton.jsx'
 import MatchupDisplay from './components/MatchupDisplay.jsx'
 import HistoryRow from './components/HistoryRow.jsx'
+import {COUNTRIES, getCountryById} from "./data/countries.js";
 
 const storageKey = 'ea-fc-settings-v1'
 
@@ -27,10 +28,19 @@ function usePersistentState(defaults) {
     return [state, setState]
 }
 
+
+function filterTeamsWithoutSpecificCountrySelection(teams, {minStars, maxStars, presetKey, countries}) {
+    const preset = PRESET_DEFINITIONS[presetKey] || PRESET_DEFINITIONS.ALL
+    return teams.filter((t) =>
+        t.stars >= minStars && t.stars <= maxStars && preset.predicate(t)
+    )
+}
+
+
 function filterTeams(teams, {minStars, maxStars, presetKey, countries}) {
     const preset = PRESET_DEFINITIONS[presetKey] || PRESET_DEFINITIONS.ALL
     return teams.filter((t) =>
-        t.stars >= minStars && t.stars <= maxStars && preset.predicate(t) && (countries.length === 0 || countries.includes(t.country.code))
+        t.stars >= minStars && t.stars <= maxStars && preset.predicate(t) && (countries.length === 0 || countries.includes(t.country))
     )
 }
 
@@ -59,11 +69,13 @@ export default function App() {
     const [animKey, setAnimKey] = useState(0)
     const [filtersError, setFiltersError] = useState(false)
 
+    const baseFiltered = useMemo(() => filterTeamsWithoutSpecificCountrySelection(TEAMS, state), [state])
+
     const countries = useMemo(() => {
         const map = new Map()
-        TEAMS.forEach((t) => map.set(t.country.code, t.country))
+        baseFiltered.forEach((t) => {map.set(t.country, getCountryById(t.country))})
         return Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name))
-    }, [])
+    }, [baseFiltered])
 
     const filtered = useMemo(() => filterTeams(TEAMS, state), [state])
 
@@ -77,10 +89,12 @@ export default function App() {
         setPulse(true)
         setTimeout(() => setPulse(false), 180)
         const [a, b] = randomTwo(filtered)
-        setState((s) => ({
-            ...s,
-            history: [{left: a, right: b}, ...s.history].slice(0, 50),
-        }))
+        setTimeout(() => {
+            setState(s => ({
+                ...s,
+                history: [{ left: a, right: b }, ...s.history].slice(0, 50),
+            }))
+        }, 500)
         setMatch([{...a}, {...b}])
         setAnimKey((k) => k + 1)
     }
